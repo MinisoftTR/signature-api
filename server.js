@@ -22,6 +22,32 @@ const APP_MODE = 'font_only';
 // Çevre değişkenlerini yükle
 dotenv.config();
 
+// Vercel ortamı kontrolü
+const isVercel = process.env.VERCEL || process.env.VERCEL_ENV;
+
+// Vercel için dizin yolunu ayarla
+const getSignaturesDir = () => {
+  if (isVercel) {
+    const tmpDir = path.join('/tmp', 'generated-signatures');
+    if (!fs.existsSync(tmpDir)) {
+      fs.mkdirSync(tmpDir, { recursive: true });
+    }
+    return tmpDir;
+  }
+  return path.join(__dirname, 'generated-signatures');
+};
+
+const getPdfUploadsDir = () => {
+  if (isVercel) {
+    const tmpDir = path.join('/tmp', 'pdf-uploads');
+    if (!fs.existsSync(tmpDir)) {
+      fs.mkdirSync(tmpDir, { recursive: true });
+    }
+    return tmpDir;
+  }
+  return path.join(__dirname, 'pdf-uploads');
+};
+
 const app = express();
 const port = process.env.PORT || 3001;
 
@@ -55,8 +81,8 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 // Serve static assets
 app.use('/api/miniAssets', express.static(path.join(__dirname, 'assets')));
 
-// Serve generated signatures
-app.use('/generated-signatures', express.static(path.join(__dirname, 'generated-signatures')));
+// Serve generated signatures (Vercel-safe)
+app.use('/generated-signatures', express.static(getSignaturesDir()));
 
 // Serve documentation
 app.use('/docs', express.static(path.join(__dirname, 'docs')));
@@ -767,10 +793,13 @@ async function saveSignatureToFile(name, fontStyle, base64Data) {
     const buffer = Buffer.from(base64Data, 'base64');
 
     // Dosyayı kaydet
-    fs.writeFileSync(filepath, buffer);
+    if (!isVercel) {
+      // Organizasyonlu sistem sadece Vercel dışında
+      fs.writeFileSync(filepath, buffer);
+    }
 
-    // Eski sistemle uyumluluk için generated-signatures klasörüne de kopyala
-    const legacyDir = path.join(__dirname, 'generated-signatures');
+    // Eski sistemle uyumluluk için generated-signatures klasörüne de kopyala (Vercel'de /tmp)
+    const legacyDir = getSignaturesDir();
     if (!fs.existsSync(legacyDir)) {
       fs.mkdirSync(legacyDir, { recursive: true });
     }
@@ -810,10 +839,10 @@ async function saveSVGSignatureToFile(name, fontStyle, svgContent) {
     
     // SVG dosya adını oluştur: isim_tarih_fontstil.svg
     const svgFilename = `${cleanName}_${timestamp}_${fontStyle}.svg`;
-    const svgFilepath = path.join(__dirname, 'generated-signatures', svgFilename);
-    
-    // generated-signatures klasörünü kontrol et
-    const signatureDir = path.join(__dirname, 'generated-signatures');
+
+    // Vercel-safe dizin
+    const signatureDir = getSignaturesDir();
+    const svgFilepath = path.join(signatureDir, svgFilename);
     if (!fs.existsSync(signatureDir)) {
       fs.mkdirSync(signatureDir, { recursive: true });
     }
@@ -1043,8 +1072,8 @@ app.post('/api/miniUpload-pdf', async (req, res) => {
     const dateFolder = now.toISOString().split('T')[0]; // YYYY-MM-DD formatında
     const timeStamp = now.toISOString().replace(/[:.]/g, '-').split('.')[0]; // YYYY-MM-DDTHH-mm-ss
 
-    // PDF upload dizinini oluştur
-    const uploadDir = path.join(__dirname, 'pdf-uploads', dateFolder);
+    // PDF upload dizinini oluştur (Vercel-safe)
+    const uploadDir = path.join(getPdfUploadsDir(), dateFolder);
     try {
       if (!fs.existsSync(uploadDir)) {
         fs.mkdirSync(uploadDir, { recursive: true, mode: 0o755 });
@@ -1159,7 +1188,7 @@ app.post('/api/miniUpload-pdf', async (req, res) => {
 // Günlük PDF upload istatistiklerini güncelle
 async function updateDailyPDFStats(dateFolder) {
   try {
-    const uploadDir = path.join(__dirname, 'pdf-uploads', dateFolder);
+    const uploadDir = path.join(getPdfUploadsDir(), dateFolder);
 
     // Dizin yoksa oluştur
     if (!fs.existsSync(uploadDir)) {
@@ -1215,7 +1244,7 @@ async function updateDailyPDFStats(dateFolder) {
 app.get('/api/miniPDF-list', (req, res) => {
   try {
     const { date, limit } = req.query;
-    const uploadsDir = path.join(__dirname, 'pdf-uploads');
+    const uploadsDir = getPdfUploadsDir();
 
     if (!fs.existsSync(uploadsDir)) {
       // Ana dizini oluştur
@@ -1334,7 +1363,7 @@ app.post('/api/miniClean-signature-photo', async (req, res) => {
       try {
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('.')[0];
         const filename = `cleaned_signature_${timestamp}.png`;
-        const filepath = path.join(__dirname, 'generated-signatures', filename);
+        const filepath = path.join(getSignaturesDir(), filename);
 
         const buffer = Buffer.from(result.cleaned.png_base64, 'base64');
         fs.writeFileSync(filepath, buffer);
@@ -1435,7 +1464,7 @@ app.get('/api/miniBackground-cleaner-status', (req, res) => {
 app.get('/api/miniPDF-get/:date/:filename', (req, res) => {
   try {
     const { date, filename } = req.params;
-    const pdfFile = path.join(__dirname, 'pdf-uploads', date, filename);
+    const pdfFile = path.join(getPdfUploadsDir(), date, filename);
     
     if (!fs.existsSync(pdfFile)) {
       return res.status(404).json({

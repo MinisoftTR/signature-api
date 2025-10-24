@@ -276,5 +276,22 @@
     ],
     "firstSeen": "2025-09-25T22:29:03.509Z",
     "lastSeen": "2025-09-25T22:29:10.538Z"
+  },
+  "test": {
+    "originalName": "Test",
+    "totalRequests": 1,
+    "successfulRequests": 1,
+    "failedRequests": 0,
+    "uniqueStyles": [
+      "zephyr"
+    ],
+    "activeDays": [
+      "2025-10-24"
+    ],
+    "clientIPs": [
+      "127.0.0.1"
+    ],
+    "firstSeen": "2025-10-24T22:20:48.869Z",
+    "lastSeen": "2025-10-24T22:20:48.869Z"
   }
 }
