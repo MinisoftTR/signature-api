@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const path = require('path');
 const fs = require('fs');
-const { createCanvas, registerFont } = require('canvas');
+const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
 const sharp = require('sharp');
 
 // Import routes
@@ -647,7 +647,7 @@ async function generateFontSignature(name, fontConfig, styleName) {
       console.warn(`Font bulunamadı: ${fontConfig.path}, varsayılan font kullanılıyor`);
     } else {
       try {
-        registerFont(fontConfig.path, { family: fontConfig.family });
+        GlobalFonts.registerFromPath(fontConfig.path, fontConfig.family);
       } catch (err) {
         console.error(`✗ Font kaydetme hatası: ${err.message}`);
         fontFamily = 'Arial, sans-serif';
@@ -885,7 +885,7 @@ async function generateSignAIPreview(fontConfig, styleId) {
       console.warn(`Font not found: ${fontConfig.path}, using default font`);
     } else {
       try {
-        registerFont(fontConfig.path, { family: fontConfig.family });
+        GlobalFonts.registerFromPath(fontConfig.path, fontConfig.family);
       } catch (err) {
         console.error(`Font registration error: ${err.message}`);
         fontFamily = 'Arial, sans-serif';

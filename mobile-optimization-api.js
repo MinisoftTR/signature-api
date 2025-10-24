@@ -1,5 +1,5 @@
 const express = require('express');
-const Canvas = require('canvas');
+const Canvas = require('@napi-rs/canvas');
 const fs = require('fs');
 const path = require('path');
 

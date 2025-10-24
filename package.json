@@ -8,10 +8,10 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.80",
     "@resvg/resvg-js": "^2.6.0",
     "axios": "^1.11.0",
     "body-parser": "^1.20.3",
-    "canvas": "^3.1.2",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^4.21.2",

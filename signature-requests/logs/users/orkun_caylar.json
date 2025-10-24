@@ -34,5 +34,14 @@
     "success": true,
     "error": null,
     "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-10-24T22:27:55.531Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
   }
 ]

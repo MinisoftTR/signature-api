@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const { createCanvas, registerFont } = require('canvas');
+const { createCanvas, registerFont } = require('@napi-rs/canvas');
 const sharp = require('sharp');
 
 // Font dizini
