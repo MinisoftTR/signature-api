@@ -1,0 +1,34 @@
+{
+  "date": "2025-09-16",
+  "lastUpdated": "2025-09-16T22:12:51.862Z",
+  "totalPDFs": 9,
+  "totalMetadataFiles": 9,
+  "totalFiles": 18,
+  "totalSizeBytes": 3540017,
+  "totalSizeMB": 3.38,
+  "averageFileSizeMB": 0.38,
+  "files": {
+    "pdf": [
+      "2025-09-16T00-06-40-622Z_signed_1757978500504_9tjvvwfuxbw_ai_scan_1757978473190.pdf",
+      "2025-09-16T00-06-48-760Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-16T00-11-04-154Z_07.03.2021_axess_hesap_o_zetiniz.pdf",
+      "2025-09-16T01-37-37-526Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-16T15-20-46-412Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-16T22-07-20-120Z_akvo_gy.pdf",
+      "2025-09-16T22-07-34-796Z_terapi_evreni_-_test_do_ku_man.pdf",
+      "2025-09-16T22-11-20-021Z_doc_title.pdf",
+      "2025-09-16T22-12-51-856Z_document_title.pdf"
+    ],
+    "metadata": [
+      "2025-09-16T00-06-40-622Z_signed_1757978500504_9tjvvwfuxbw_ai_scan_1757978473190.json",
+      "2025-09-16T00-06-48-760Z_i_s_lem_dekontunuz.json",
+      "2025-09-16T00-11-04-154Z_07.03.2021_axess_hesap_o_zetiniz.json",
+      "2025-09-16T01-37-37-526Z_i_s_lem_dekontunuz.json",
+      "2025-09-16T15-20-46-412Z_i_s_lem_dekontunuz.json",
+      "2025-09-16T22-07-20-120Z_akvo_gy.json",
+      "2025-09-16T22-07-34-796Z_terapi_evreni_-_test_do_ku_man.json",
+      "2025-09-16T22-11-20-021Z_doc_title.json",
+      "2025-09-16T22-12-51-856Z_document_title.json"
+    ]
+  }
+}

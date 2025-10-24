@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Maker API Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .nav {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .nav a:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+        }
+        
+        .endpoint {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .method {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+        
+        .method.get { background: #28a745; color: white; }
+        .method.post { background: #007bff; color: white; }
+        .method.put { background: #ffc107; color: black; }
+        .method.delete { background: #dc3545; color: white; }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .test-section {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .test-form {
+            display: grid;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .form-group {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .form-group label {
+            font-weight: 500;
+            color: #555;
+        }
+        
+        .form-group input, .form-group select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            background: #5a67d8;
+            transform: translateY(-1px);
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            font-family: monospace;
+            font-size: 13px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .result.success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .result.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        
+        .signature-preview {
+            max-width: 100%;
+            max-height: 200px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-top: 15px;
+            background: white;
+            padding: 10px;
+        }
+        
+        .styles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .style-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .style-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .style-card img {
+            max-width: 100%;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        
+        .pro-badge {
+            background: #ff6b35;
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .status-indicator.online { background: #28a745; }
+        .status-indicator.offline { background: #dc3545; }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .form-group {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🖋️ Signature Maker API v2.0</h1>
+            <p>SVG-First Modern İmza API'si - Interaktif Dokümantasyon ve Test Arayüzü</p>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#overview">Genel Bakış</a></li>
+                <li><a href="#v2-features">v2.0 Yenilikler</a></li>
+                <li><a href="#endpoints">Endpoint'ler</a></li>
+                <li><a href="#svg-api">SVG API</a></li>
+                <li><a href="#backup">PDF Upload</a></li>
+                <li><a href="#testing">Test Arayüzü</a></li>
+                <li><a href="#styles">Stiller</a></li>
+                <li><a href="#examples">Örnekler</a></li>
+            </ul>
+        </div>
+
+        <!-- Genel Bakış -->
+        <div id="overview" class="section">
+            <h2>📋 Genel Bakış</h2>
+            <p><strong>Base URL:</strong> <code>http://localhost:3001/api</code></p>
+            
+            <h3>Server Durumu</h3>
+            <p>
+                <span id="server-status" class="status-indicator offline"></span>
+                <span id="server-status-text">Kontrol ediliyor...</span>
+                <button class="btn" onclick="checkServerStatus()" style="margin-left: 10px;">Yenile</button>
+            </p>
+
+            <h3>API Versiyonları</h3>
+            <ul>
+                <li><strong>v1.0 (Legacy):</strong> Canvas tabanlı PNG imza üretimi</li>
+                <li><strong>v2.0 (Current):</strong> SVG-first, Unicode destekli modern API</li>
+            </ul>
+
+            <h3>Response Format</h3>
+            <div class="code-block">{
+  "success": true,
+  "data": {...},
+  "timestamp": "2024-01-15T10:30:00.000Z"
+}</div>
+        </div>
+
+        <!-- v2.0 Yenilikler -->
+        <div id="v2-features" class="section">
+            <h2>🚀 v2.0 Yenilikler</h2>
+            
+            <h3>✨ Ana Özellikler</h3>
+            <ul>
+                <li><strong>SVG Birincil Render:</strong> Vektör tabanlı kayıpsız imza üretimi</li>
+                <li><strong>Native Unicode Desteği:</strong> Türkçe karakterler (ç,ğ,ı,ö,ş,ü) doğal render</li>
+                <li><strong>Gelişmiş Typography:</strong> Ligatür ve kerning desteği</li>
+                <li><strong>Çoklu Format:</strong> SVG, PNG, WebP çıktı desteği</li>
+                <li><strong>Rate Limiting:</strong> İstemci başına dakikada 100 istek</li>
+                <li><strong>Font Metadata:</strong> Detaylı font özellikleri analizi</li>
+            </ul>
+
+            <h3>🔧 Teknik İyileştirmeler</h3>
+            <ul>
+                <li><strong>OpenType.js:</strong> SVG path üretimi</li>
+                <li><strong>FontKit:</strong> Gelişmiş font shaping</li>
+                <li><strong>resvg-js:</strong> SVG→PNG dönüşümü</li>
+                <li><strong>Modüler Mimari:</strong> lib/ klasör yapısı</li>
+                <li><strong>Geriye Uyumlu:</strong> v1.0 API'ları çalışmaya devam eder</li>
+            </ul>
+
+            <h3>📊 Performance Karşılaştırması</h3>
+            <div class="code-block">v1.0 (Canvas)     →  v2.0 (SVG)
+Türkçe Karakter   →  Dönüştürme    →  Native
+Çıktı Kalitesi    →  Raster        →  Vektör  
+Dosya Boyutu      →  ~15KB PNG     →  ~2KB SVG
+Render Süresi     →  ~200ms        →  ~150ms
+Ligatür/Kerning   →  ❌            →  ✅
+Ölçeklenebilirlik →  ❌            →  ✅</div>
+        </div>
+
+        <!-- Endpoint'ler -->
+        <div id="endpoints" class="section">
+            <h2>🔗 API Endpoint'leri</h2>
+            
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniHealth</h3>
+                <p>Server sağlık durumunu kontrol eder.</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniConfig</h3>
+                <p>Uygulama konfigürasyon ayarlarını getirir. Genel ayarlar, limitler, premium özellikler ve rating modal ayarlarını içerir.</p>
+                <div class="code-block">{
+  "general": {
+    "appName": "Signature Maker",
+    "appVersion": "1.0.0",
+    "language": "auto",
+    "theme": "system",
+    "debugMode": false
+  },
+  "limits": {
+    "maxSignatureTextLength": 20,
+    "maxFreeSignatures": 3,
+    "maxFreePDFsPerDay": 2,
+    "maxGalleryItemsFree": 10
+  },
+  "premium": {
+    "enabled": true,
+    "watermarkVisible": true,
+    "features": {
+      "unlimitedSignatures": true,
+      "removeWatermark": true,
+      "multiPDFSupport": false,
+      "accessAllFonts": true
+    }
+  },
+  "rateModal": {
+    "showAfterOpenCount": 5,
+    "remindAfterDays": 7,
+    "storeURL": {
+      "ios": "https://apps.apple.com/app/idXXXXXXXXX",
+      "android": "https://play.google.com/store/apps/details?id=com.example.signaturemaker"
+    }
+  }
+}</div>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniStyles</h3>
+                <p>Tüm mevcut imza stillerini listeler.</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniStyles/:id</h3>
+                <p>Belirli bir stilin detaylarını getirir.</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniStyles/category/:type</h3>
+                <p>Kategoriye göre stilleri getirir (free/pro).</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method post">POST</span>/miniGenerate-signature</h3>
+                <p>Verilen isim ve stil ile imza oluşturur. <strong>v2.0'da SVG URL dahil!</strong></p>
+                <div class="code-block">{
+  "name": "Çağlar Şahin",
+  "fontStyle": "bresley"
+}</div>
+                <p><strong>v2.0 Response:</strong> Artık <code>svgUrl</code> ve <code>newApiAvailable</code> field'ları eklendi.</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method post">POST</span>/miniUpload-pdf</h3>
+                <p>PDF dosyalarını gün bazında yükler ve saklar. Dosya doğrulama ve boyut kontrolü yapar.</p>
+                <div class="code-block">{
+  "pdfData": "base64_pdf_data_here",
+  "fileName": "contract_document.pdf",
+  "metadata": {
+    "userAgent": "Mobile App v2.0",
+    "source": "signature_flow",
+    "documentType": "contract"
+  }
+}</div>
+                <p><strong>Özellikler:</strong> Max 50MB, PDF format doğrulama, günlük organizasyon</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniPDF-list</h3>
+                <p>Yüklenen PDF'lerin listesi ve istatistiklerini getirir.</p>
+                <p><strong>Query Parameters:</strong></p>
+                <ul>
+                    <li><code>date</code> - Belirli gün (YYYY-MM-DD formatında)</li>
+                    <li><code>limit</code> - Sonuç sayısını sınırla</li>
+                </ul>
+                <div class="code-block">GET /miniPDF-list?date=2025-08-09&limit=10</div>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/miniPDF-get/:date/:filename</h3>
+                <p>Belirli bir PDF dosyasını veya metadata'sını getirir.</p>
+                <div class="code-block">GET /miniPDF-get/2025-08-09/document.pdf
+GET /miniPDF-get/2025-08-09/document.json</div>
+                <p><strong>Not:</strong> .pdf uzantılı dosyalar doğrudan indirilir, .json dosyalar metadata olarak döner</p>
+            </div>
+        </div>
+
+        <!-- SVG API v2.0 -->
+        <div id="svg-api" class="section">
+            <h2>🎨 SVG API v2.0 (Yeni)</h2>
+            
+            <h3>Modern SVG-First API</h3>
+            <p>Yeni SVG API vektör tabanlı, ölçeklenebilir ve performanslı imza üretimi sağlar.</p>
+            
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/render/signature.svg</h3>
+                <p>SVG formatında vektör imza oluşturur.</p>
+                <div class="code-block">GET /api/render/signature.svg?text=Çağlar&fontId=bresley&size=150&color=%23000000</div>
+                <p><strong>Parametreler:</strong></p>
+                <ul>
+                    <li><code>text</code> - İmza metni (maks. 100 karakter)</li>
+                    <li><code>fontId</code> - Font ID (whitelist kontrolü)</li>
+                    <li><code>size</code> - Font boyutu (10-1000 px, varsayılan: 128)</li>
+                    <li><code>color</code> - Hex renk kodu (varsayılan: #000000)</li>
+                    <li><code>stroke</code> - Çerçeve kalınlığı (varsayılan: 0)</li>
+                    <li><code>padding</code> - Kenar boşluğu (varsayılan: 12)</li>
+                    <li><code>kerning</code> - Kerning etkin mi? (varsayılan: true)</li>
+                    <li><code>ligatures</code> - Ligatürler etkin mi? (varsayılan: true)</li>
+                </ul>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/render/signature.png</h3>
+                <p>PNG formatında raster imza oluşturur (SVG'den dönüştürülür).</p>
+                <div class="code-block">GET /api/render/signature.png?text=Çağlar&fontId=bresley&w=512&h=256</div>
+                <p><strong>Ek Parametreler:</strong></p>
+                <ul>
+                    <li><code>w</code> - PNG genişliği (piksel)</li>
+                    <li><code>h</code> - PNG yüksekliği (piksel)</li>
+                </ul>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/render/signature.webp</h3>
+                <p>WebP formatında optimize imza oluşturur.</p>
+                <div class="code-block">GET /api/render/signature.webp?text=Çağlar&fontId=bresley&w=400</div>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/render/status</h3>
+                <p>SVG render servisinin durumunu kontrol eder.</p>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method get">GET</span>/render/font-features/:fontId</h3>
+                <p>Font'un desteklediği özellikleri analiz eder.</p>
+                <div class="code-block">GET /api/render/font-features/bresley</div>
+            </div>
+
+            <div class="endpoint">
+                <h3><span class="method post">POST</span>/render/bulk</h3>
+                <p>Toplu imza oluşturma (max 10 istek).</p>
+                <div class="code-block">{
+  "requests": [
+    {"text": "Çağlar", "fontId": "bresley", "format": "svg"},
+    {"text": "Şahin", "fontId": "castenivey", "format": "png", "options": {"w": 512}}
+  ]
+}</div>
+            </div>
+
+            <h3>🚀 SVG API Test Arayüzü</h3>
+            <div class="test-section">
+                <h4>SVG İmza Oluştur</h4>
+                <div class="test-form">
+                    <div class="form-group">
+                        <label for="svg-text">Metin:</label>
+                        <input type="text" id="svg-text" value="Çağlar Şahin" placeholder="İmza metni">
+                    </div>
+                    <div class="form-group">
+                        <label for="svg-font">Font:</label>
+                        <select id="svg-font">
+                            <option value="bresley">Bresley</option>
+                            <option value="castenivey">Castenivey</option>
+                            <option value="flavellya">Flavellya</option>
+                            <option value="callifornia">Callifornia</option>
+                            <option value="enternity">Enternity</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="svg-size">Boyut:</label>
+                        <input type="number" id="svg-size" value="150" min="10" max="500">
+                    </div>
+                    <div class="form-group">
+                        <label for="svg-format">Format:</label>
+                        <select id="svg-format">
+                            <option value="svg">SVG</option>
+                            <option value="png">PNG</option>
+                            <option value="webp">WebP</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <button class="btn" onclick="testSVGAPI()">SVG API Test</button>
+                    </div>
+                </div>
+                <div id="svg-result" class="result" style="display: none;"></div>
+                <div id="svg-preview" style="margin-top: 15px; text-align: center; display: none;">
+                    <h4>Önizleme:</h4>
+                    <div id="svg-display" style="border: 2px solid #ddd; padding: 20px; background: white; border-radius: 8px; display: inline-block;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PDF Upload Sistemi -->
+        <div id="backup" class="section">
+            <h2>📄 PDF Upload Sistemi</h2>
+            
+            <h3>Özellikler</h3>
+            <ul>
+                <li><strong>Günlük Organizasyon:</strong> Her gün için ayrı klasör (YYYY-MM-DD)</li>
+                <li><strong>Dosya Doğrulama:</strong> PDF magic bytes kontrolü (%PDF)</li>
+                <li><strong>Boyut Kontrolü:</strong> Maksimum 50MB dosya boyutu</li>
+                <li><strong>Çift Saklama:</strong> PDF dosyası + JSON metadata</li>
+                <li><strong>İstatistik Takibi:</strong> Günlük upload sayıları ve boyutları</li>
+                <li><strong>Doğrudan Erişim:</strong> PDF'leri API üzerinden indirme</li>
+            </ul>
+
+            <h3>Test Arayüzü</h3>
+            <div class="test-section">
+                <h4>PDF Upload Testi</h4>
+                <div class="test-form">
+                    <div class="form-group">
+                        <label for="pdf-file">PDF Dosyası:</label>
+                        <input type="file" id="pdf-file" accept=".pdf" onchange="handlePDFFile(this)">
+                    </div>
+                    <div class="form-group">
+                        <label for="pdf-filename">Dosya Adı:</label>
+                        <input type="text" id="pdf-filename" value="test_document.pdf" placeholder="document.pdf">
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <button class="btn" onclick="testPDFUpload()" id="pdf-upload-btn" disabled>PDF Yükle</button>
+                    </div>
+                </div>
+                <div id="pdf-upload-result" class="result" style="display: none;"></div>
+            </div>
+
+            <div class="test-section">
+                <h4>PDF Listesi</h4>
+                <div class="test-form">
+                    <div class="form-group">
+                        <label for="pdf-list-date">Tarih:</label>
+                        <input type="date" id="pdf-list-date" placeholder="2025-08-09">
+                    </div>
+                    <div class="form-group">
+                        <label for="pdf-list-limit">Limit:</label>
+                        <input type="number" id="pdf-list-limit" value="10" min="1" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <button class="btn" onclick="testPDFList()">Liste Getir</button>
+                    </div>
+                </div>
+                <div id="pdf-list-result" class="result" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- Test Arayüzü -->
+        <div id="testing" class="section">
+            <h2>🧪 API Test Arayüzü</h2>
+            
+            <!-- Health Check Test -->
+            <div class="test-section">
+                <h3>Health Check Testi</h3>
+                <button class="btn" onclick="testHealthCheck()">Test Et</button>
+                <div id="health-result" class="result" style="display: none;"></div>
+            </div>
+
+            <!-- Config Test -->
+            <div class="test-section">
+                <h3>App Config Testi</h3>
+                <button class="btn" onclick="testAppConfig()">Konfigürasyonu Getir</button>
+                <div id="config-result" class="result" style="display: none;"></div>
+            </div>
+
+            <!-- Get Styles Test -->
+            <div class="test-section">
+                <h3>Stilleri Listeleme Testi</h3>
+                <button class="btn" onclick="testGetStyles()">Stilleri Getir</button>
+                <div id="styles-result" class="result" style="display: none;"></div>
+            </div>
+
+            <!-- Generate Signature Test -->
+            <div class="test-section">
+                <h3>İmza Oluşturma Testi</h3>
+                <div class="test-form">
+                    <div class="form-group">
+                        <label for="test-name">İsim:</label>
+                        <input type="text" id="test-name" value="John Doe" placeholder="İmza için isim girin">
+                    </div>
+                    <div class="form-group">
+                        <label for="test-style">Stil:</label>
+                        <select id="test-style">
+                            <option value="elegant">Elegant</option>
+                            <option value="bold">Bold</option>
+                            <option value="classic">Classic</option>
+                            <option value="modern">Modern</option>
+                            <option value="artistic">Artistic</option>
+                            <option value="minimalist">Minimalist</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <button class="btn" onclick="testGenerateSignature()">İmza Oluştur</button>
+                    </div>
+                </div>
+                <div id="signature-result" class="result" style="display: none;"></div>
+                <img id="signature-preview" class="signature-preview" style="display: none;" alt="Oluşturulan İmza">
+            </div>
+
+            <!-- Custom API Test -->
+            <div class="test-section">
+                <h3>Özel API Testi</h3>
+                <div class="test-form">
+                    <div class="form-group">
+                        <label for="custom-method">Method:</label>
+                        <select id="custom-method">
+                            <option value="GET">GET</option>
+                            <option value="POST">POST</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="custom-endpoint">Endpoint:</label>
+                        <input type="text" id="custom-endpoint" value="/miniHealth" placeholder="/miniHealth">
+                    </div>
+                    <div class="form-group">
+                        <label for="custom-body">Body (JSON):</label>
+                        <input type="text" id="custom-body" placeholder='{"name": "test"}'>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <button class="btn" onclick="testCustomAPI()">Test Et</button>
+                    </div>
+                </div>
+                <div id="custom-result" class="result" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- Stiller -->
+        <div id="styles" class="section">
+            <h2>🎨 Mevcut İmza Stilleri</h2>
+            <button class="btn" onclick="loadStyles()">Stilleri Yükle</button>
+            <div id="styles-grid" class="styles-grid"></div>
+        </div>
+
+        <!-- Örnekler -->
+        <div id="examples" class="section">
+            <h2>💻 Kod Örnekleri</h2>
+            
+            <h3>JavaScript/Fetch API - v2.0 SVG (Önerilen)</h3>
+            <div class="code-block">// SVG İmza Üretimi (v2.0 - Önerilen)
+const generateSVGSignature = async (text, fontId, options = {}) => {
+  const params = new URLSearchParams({
+    text: text,
+    fontId: fontId,
+    size: options.size || 128,
+    color: options.color || '#000000',
+    ...options
+  });
+
+  try {
+    const response = await fetch(`http://localhost:3001/api/render/signature.svg?${params}`);
+    
+    if (response.ok) {
+      const svgText = await response.text();
+      return svgText;
+    } else {
+      throw new Error(`SVG generation failed: ${response.status}`);
+    }
+  } catch (error) {
+    console.error('SVG imza oluşturma hatası:', error);
+    throw error;
+  }
+};
+
+// PNG İmza Üretimi (v2.0)
+const generatePNGSignature = async (text, fontId, width = 512, height = 256) => {
+  const params = new URLSearchParams({
+    text: text,
+    fontId: fontId,
+    w: width,
+    h: height
+  });
+
+  const response = await fetch(`http://localhost:3001/api/render/signature.png?${params}`);
+  return response.blob();
+};
+
+// Kullanım - SVG
+generateSVGSignature('Çağlar Şahin', 'bresley', { size: 150 })
+  .then(svgContent => {
+    document.getElementById('signature-container').innerHTML = svgContent;
+  });
+
+// Kullanım - PNG
+generatePNGSignature('Çağlar Şahin', 'bresley', 512, 256)
+  .then(blob => {
+    const url = URL.createObjectURL(blob);
+    document.getElementById('signature-img').src = url;
+  });</div>
+
+            <h3>JavaScript/Fetch API - v1.0 Legacy</h3>
+            <div class="code-block">const generateSignature = async (name, style = 'elegant') => {
+  try {
+    const response = await fetch('http://localhost:3001/api/miniGenerate-signature', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: name,
+        fontStyle: style
+      })
+    });
+
+    const result = await response.json();
+    
+    if (result.success) {
+      const base64Image = result.data[0].b64_json;
+      // v2.0'da SVG URL'i de mevcut
+      const svgUrl = result.svgUrl;
+      
+      return {
+        png: `data:image/png;base64,${base64Image}`,
+        svgUrl: svgUrl
+      };
+    } else {
+      throw new Error(result.error.message);
+    }
+  } catch (error) {
+    console.error('İmza oluşturma hatası:', error);
+    throw error;
+  }
+};
+
+// Kullanım
+generateSignature('Çağlar Şahin', 'bresley')
+  .then(result => {
+    document.getElementById('signature').src = result.png;
+    // v2.0'da SVG URL'i de kullanılabilir
+    console.log('SVG URL:', result.svgUrl);
+  });</div>
+
+            <h3>cURL - v2.0 SVG API</h3>
+            <div class="code-block"># SVG İmza (Türkçe karakterli)
+curl "http://localhost:3001/api/render/signature.svg?text=Çağlar&fontId=bresley&size=150"
+
+# PNG İmza (512x256)
+curl "http://localhost:3001/api/render/signature.png?text=Çağlar&fontId=bresley&w=512&h=256" \
+  -o signature.png
+
+# WebP İmza (optimize)
+curl "http://localhost:3001/api/render/signature.webp?text=Çağlar&fontId=bresley&w=400" \
+  -o signature.webp
+
+# Font özellikleri analizi
+curl "http://localhost:3001/api/render/font-features/bresley"
+
+# Servis durumu
+curl "http://localhost:3001/api/render/status"</div>
+
+            <h3>cURL - v1.0 Legacy</h3>
+            <div class="code-block">curl -X POST http://localhost:3001/api/miniGenerate-signature \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Çağlar Şahin",
+    "fontStyle": "bresley"
+  }'</div>
+
+            <h3>React Native - v2.0 SVG (Önerilen)</h3>
+            <div class="code-block">import React, { useState, useEffect } from 'react';
+import { View } from 'react-native';
+import { SvgUri, SvgXml } from 'react-native-svg';
+
+const SignatureComponent = ({ name, fontId, size = 128 }) => {
+  const [svgContent, setSvgContent] = useState(null);
+
+  useEffect(() => {
+    const generateSVGSignature = async () => {
+      try {
+        const params = new URLSearchParams({
+          text: name,
+          fontId: fontId,
+          size: size.toString()
+        });
+        
+        const response = await fetch(`http://192.168.1.9:3001/api/render/signature.svg?${params}`);
+        
+        if (response.ok) {
+          const svgText = await response.text();
+          setSvgContent(svgText);
+        }
+      } catch (error) {
+        console.error('SVG imza oluşturma hatası:', error);
+      }
+    };
+
+    if (name && fontId) generateSVGSignature();
+  }, [name, fontId, size]);
+
+  return svgContent ? (
+    &lt;View style={{ alignItems: 'center' }}&gt;
+      &lt;SvgXml xml={svgContent} width={256} height={160} /&gt;
+    &lt;/View&gt;
+  ) : null;
+};
+
+// PNG kullanımı (düşük cihazlar için)
+const PNGSignatureComponent = ({ name, fontId }) => {
+  const [imageUri, setImageUri] = useState(null);
+
+  useEffect(() => {
+    const generatePNGSignature = async () => {
+      try {
+        const params = new URLSearchParams({
+          text: name,
+          fontId: fontId,
+          w: '512',
+          h: '256'
+        });
+        
+        const url = `http://192.168.1.9:3001/api/render/signature.png?${params}`;
+        setImageUri(url);
+      } catch (error) {
+        console.error('PNG imza oluşturma hatası:', error);
+      }
+    };
+
+    if (name && fontId) generatePNGSignature();
+  }, [name, fontId]);
+
+  return imageUri ? (
+    &lt;Image source={{ uri: imageUri }} style={{ width: 512, height: 256 }} /&gt;
+  ) : null;
+};</div>
+
+            <h3>React Native - v1.0 Legacy</h3>
+            <div class="code-block">import { Image } from 'react-native';
+
+const SignatureComponent = ({ name, style }) => {
+  const [signatureUri, setSignatureUri] = useState(null);
+
+  useEffect(() => {
+    const generateSignature = async () => {
+      try {
+        const response = await fetch('http://192.168.1.9:3001/api/miniGenerate-signature', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, fontStyle: style })
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          setSignatureUri(`data:image/png;base64,${result.data[0].b64_json}`);
+        }
+      } catch (error) {
+        console.error('İmza oluşturma hatası:', error);
+      }
+    };
+
+    if (name) generateSignature();
+  }, [name, style]);
+
+  return signatureUri ? (
+    &lt;Image source={{ uri: signatureUri }} style={{ width: 300, height: 150 }} /&gt;
+  ) : null;
+};</div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:3001/api';
+
+        // Server durumu kontrolü
+        async function checkServerStatus() {
+            const statusIndicator = document.getElementById('server-status');
+            const statusText = document.getElementById('server-status-text');
+            
+            try {
+                const response = await fetch(`${API_BASE}/miniHealth`);
+                if (response.ok) {
+                    statusIndicator.className = 'status-indicator online';
+                    statusText.textContent = 'Server çalışıyor';
+                } else {
+                    throw new Error('Server yanıt vermiyor');
+                }
+            } catch (error) {
+                statusIndicator.className = 'status-indicator offline';
+                statusText.textContent = 'Server çalışmıyor';
+            }
+        }
+
+        // Health check test
+        async function testHealthCheck() {
+            const resultDiv = document.getElementById('health-result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'Test ediliyor...';
+            resultDiv.className = 'result';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniHealth`);
+                const data = await response.json();
+                
+                resultDiv.className = 'result success';
+                resultDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // App config test
+        async function testAppConfig() {
+            const resultDiv = document.getElementById('config-result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'Konfigürasyon getiriliyor...';
+            resultDiv.className = 'result';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniConfig`);
+                const data = await response.json();
+                
+                resultDiv.className = 'result success';
+                resultDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // Stilleri getir test
+        async function testGetStyles() {
+            const resultDiv = document.getElementById('styles-result');
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'Stiller getiriliyor...';
+            resultDiv.className = 'result';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniStyles`);
+                const data = await response.json();
+                
+                resultDiv.className = 'result success';
+                resultDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // İmza oluşturma test
+        async function testGenerateSignature() {
+            const name = document.getElementById('test-name').value;
+            const style = document.getElementById('test-style').value;
+            const resultDiv = document.getElementById('signature-result');
+            const previewImg = document.getElementById('signature-preview');
+            
+            if (!name.trim()) {
+                alert('Lütfen bir isim girin');
+                return;
+            }
+
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'İmza oluşturuluyor...';
+            resultDiv.className = 'result';
+            previewImg.style.display = 'none';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniGenerate-signature`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        fontStyle: style
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `İmza başarıyla oluşturuldu!\nStil: ${data.fontStyle}\nMod: ${data.mode}`;
+                    
+                    // İmzayı göster
+                    const base64Image = data.data[0].b64_json;
+                    previewImg.src = `data:image/png;base64,${base64Image}`;
+                    previewImg.style.display = 'block';
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `Hata: ${data.error || 'Bilinmeyen hata'}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // Özel API test
+        async function testCustomAPI() {
+            const method = document.getElementById('custom-method').value;
+            const endpoint = document.getElementById('custom-endpoint').value;
+            const body = document.getElementById('custom-body').value;
+            const resultDiv = document.getElementById('custom-result');
+            
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'İstek gönderiliyor...';
+            resultDiv.className = 'result';
+
+            try {
+                const options = {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                };
+
+                if (method === 'POST' && body.trim()) {
+                    options.body = body;
+                }
+
+                const response = await fetch(`${API_BASE}${endpoint}`, options);
+                const data = await response.json();
+                
+                resultDiv.className = response.ok ? 'result success' : 'result error';
+                resultDiv.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // Stilleri yükle ve göster
+        async function loadStyles() {
+            const stylesGrid = document.getElementById('styles-grid');
+            stylesGrid.innerHTML = '<p>Stiller yükleniyor...</p>';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniStyles`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    stylesGrid.innerHTML = '';
+                    data.data.forEach(style => {
+                        const styleCard = document.createElement('div');
+                        styleCard.className = 'style-card';
+                        styleCard.innerHTML = `
+                            <img src="${style.imageUrl}" alt="${style.name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiBmaWxsPSIjRjhGOUZBIi8+Cjx0ZXh0IHg9IjEwMCIgeT0iNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+JHtzdHlsZS5uYW1lfTwvdGV4dD4KPC9zdmc+'">
+                            <h4>${style.name} ${style.isPro ? '<span class="pro-badge">PRO</span>' : ''}</h4>
+                            <p><small>ID: ${style.id}</small></p>
+                        `;
+                        stylesGrid.appendChild(styleCard);
+                    });
+                } else {
+                    stylesGrid.innerHTML = '<p>Stiller yüklenemedi</p>';
+                }
+            } catch (error) {
+                stylesGrid.innerHTML = `<p>Hata: ${error.message}</p>`;
+            }
+        }
+
+        // PDF dosya seçimi
+        let selectedPDFData = null;
+
+        function handlePDFFile(input) {
+            const file = input.files[0];
+            const uploadBtn = document.getElementById('pdf-upload-btn');
+            
+            if (file && file.type === 'application/pdf') {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    selectedPDFData = e.target.result.split(',')[1]; // Base64 kısmını al
+                    uploadBtn.disabled = false;
+                    uploadBtn.textContent = `PDF Yükle (${(file.size / 1024 / 1024).toFixed(2)}MB)`;
+                };
+                reader.readAsDataURL(file);
+                
+                // Dosya adını otomatik doldur
+                document.getElementById('pdf-filename').value = file.name;
+            } else {
+                selectedPDFData = null;
+                uploadBtn.disabled = true;
+                uploadBtn.textContent = 'PDF Yükle';
+                alert('Lütfen geçerli bir PDF dosyası seçin');
+            }
+        }
+
+        // PDF upload testi
+        async function testPDFUpload() {
+            const fileName = document.getElementById('pdf-filename').value;
+            const resultDiv = document.getElementById('pdf-upload-result');
+            
+            if (!selectedPDFData) {
+                alert('Lütfen önce bir PDF dosyası seçin');
+                return;
+            }
+
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'PDF yükleniyor...';
+            resultDiv.className = 'result';
+
+            try {
+                const response = await fetch(`${API_BASE}/miniUpload-pdf`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        pdfData: selectedPDFData,
+                        fileName: fileName || 'test_document.pdf',
+                        metadata: {
+                            userAgent: navigator.userAgent,
+                            timestamp: new Date().toISOString(),
+                            source: 'API_Documentation',
+                            documentType: 'test'
+                        }
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `PDF yüklendi!\nDosya: ${data.data.fileName}\nTarih: ${data.data.uploadDate}\nBoyut: ${data.data.fileSizeMB}MB\nİşlem Süresi: ${data.data.processingTime}ms`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `Hata: ${data.error.message}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // PDF listesi testi
+        async function testPDFList() {
+            const date = document.getElementById('pdf-list-date').value;
+            const limit = document.getElementById('pdf-list-limit').value;
+            const resultDiv = document.getElementById('pdf-list-result');
+            
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = 'PDF listesi getiriliyor...';
+            resultDiv.className = 'result';
+
+            try {
+                let url = `${API_BASE}/miniPDF-list`;
+                const params = new URLSearchParams();
+                if (date) params.append('date', date);
+                if (limit) params.append('limit', limit);
+                if (params.toString()) url += '?' + params.toString();
+
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                if (data.success) {
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = JSON.stringify(data, null, 2);
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `Hata: ${data.error.message}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // SVG API Test
+        async function testSVGAPI() {
+            const text = document.getElementById('svg-text').value;
+            const fontId = document.getElementById('svg-font').value;
+            const size = document.getElementById('svg-size').value;
+            const format = document.getElementById('svg-format').value;
+            const resultDiv = document.getElementById('svg-result');
+            const previewDiv = document.getElementById('svg-preview');
+            const displayDiv = document.getElementById('svg-display');
+            
+            if (!text.trim()) {
+                alert('Lütfen bir metin girin');
+                return;
+            }
+
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = `${format.toUpperCase()} imza oluşturuluyor...`;
+            resultDiv.className = 'result';
+            previewDiv.style.display = 'none';
+
+            try {
+                const params = new URLSearchParams({
+                    text: text,
+                    fontId: fontId,
+                    size: size
+                });
+
+                const response = await fetch(`${API_BASE}/render/signature.${format}?${params}`);
+                
+                if (response.ok) {
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `${format.toUpperCase()} imza başarıyla oluşturuldu!\nFont: ${fontId}\nBoyut: ${size}px\nFormat: ${format}`;
+                    
+                    if (format === 'svg') {
+                        const svgContent = await response.text();
+                        displayDiv.innerHTML = svgContent;
+                        previewDiv.style.display = 'block';
+                    } else {
+                        const blob = await response.blob();
+                        const url = URL.createObjectURL(blob);
+                        displayDiv.innerHTML = `<img src="${url}" style="max-width: 400px; max-height: 200px;" alt="Generated Signature">`;
+                        previewDiv.style.display = 'block';
+                    }
+                } else {
+                    const errorData = await response.json();
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `Hata (${response.status}): ${errorData.message || 'Bilinmeyen hata'}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `Hata: ${error.message}`;
+            }
+        }
+
+        // Sayfa yüklendiğinde server durumunu kontrol et
+        window.addEventListener('load', function() {
+            checkServerStatus();
+        });
+    </script>
+</body>
+</html>

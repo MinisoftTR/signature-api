@@ -1,0 +1,26 @@
+{
+  "date": "2025-08-23",
+  "lastUpdated": "2025-08-23T22:54:11.236Z",
+  "totalPDFs": 5,
+  "totalMetadataFiles": 5,
+  "totalFiles": 10,
+  "totalSizeBytes": 1083375,
+  "totalSizeMB": 1.03,
+  "averageFileSizeMB": 0.21,
+  "files": {
+    "pdf": [
+      "2025-08-23T12-37-42-169Z_doc-20250709-wa0022.pdf",
+      "2025-08-23T15-52-31-501Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-23T22-09-59-769Z_tahsilatid_2638273308.pdf",
+      "2025-08-23T22-12-12-396Z_tahsilatid_2638273308.pdf",
+      "2025-08-23T22-54-11-232Z_2025_temmuz_ay_hesap_o_zetiniz_2.pdf"
+    ],
+    "metadata": [
+      "2025-08-23T12-37-42-169Z_doc-20250709-wa0022.json",
+      "2025-08-23T15-52-31-501Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-23T22-09-59-769Z_tahsilatid_2638273308.json",
+      "2025-08-23T22-12-12-396Z_tahsilatid_2638273308.json",
+      "2025-08-23T22-54-11-232Z_2025_temmuz_ay_hesap_o_zetiniz_2.json"
+    ]
+  }
+}

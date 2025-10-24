@@ -1,0 +1,334 @@
+{
+  "generated_at": "2025-08-02T13:02:34.158Z",
+  "canvas_size": "1280x800",
+  "name_used": "Orkun Çaylar",
+  "total_styles": 40,
+  "successful_generations": 17,
+  "failed_generations": 23,
+  "success_rate": "42.5%",
+  "category_breakdown": {
+    "signature_fonts": 0,
+    "general_fonts": 17
+  },
+  "results": [
+    {
+      "success": true,
+      "styleId": "blastiks",
+      "filename": "orkun_caylar_blastiks_1280x800_2025-08-02T13-02-26.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_blastiks_1280x800_2025-08-02T13-02-26.png",
+      "timestamp": "2025-08-02T13-02-26",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "bouttiques",
+      "filename": "orkun_caylar_bouttiques_1280x800_2025-08-02T13-02-26.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_bouttiques_1280x800_2025-08-02T13-02-26.png",
+      "timestamp": "2025-08-02T13-02-26",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "breakloft",
+      "filename": "orkun_caylar_breakloft_1280x800_2025-08-02T13-02-26.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_breakloft_1280x800_2025-08-02T13-02-26.png",
+      "timestamp": "2025-08-02T13-02-26",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "bresley",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "callifornia",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "castenivey",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "enternity",
+      "filename": "orkun_caylar_enternity_1280x800_2025-08-02T13-02-27.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_enternity_1280x800_2025-08-02T13-02-27.png",
+      "timestamp": "2025-08-02T13-02-27",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "etiquette",
+      "filename": "orkun_caylar_etiquette_1280x800_2025-08-02T13-02-27.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_etiquette_1280x800_2025-08-02T13-02-27.png",
+      "timestamp": "2025-08-02T13-02-27",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "fallen_city_2",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "fallen_city",
+      "filename": "orkun_caylar_fallen_city_1280x800_2025-08-02T13-02-28.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_fallen_city_1280x800_2025-08-02T13-02-28.png",
+      "timestamp": "2025-08-02T13-02-28",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "flavellya",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "gillfloys_2",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "gillfloys",
+      "filename": "orkun_caylar_gillfloys_1280x800_2025-08-02T13-02-28.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_gillfloys_1280x800_2025-08-02T13-02-28.png",
+      "timestamp": "2025-08-02T13-02-28",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "gillfloys_alt_2",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "gillfloys_alt",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "hagia_signature",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "hamburg_signature",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "handestonie",
+      "filename": "orkun_caylar_handestonie_1280x800_2025-08-02T13-02-29.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_handestonie_1280x800_2025-08-02T13-02-29.png",
+      "timestamp": "2025-08-02T13-02-29",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "handitype",
+      "filename": "orkun_caylar_handitype_1280x800_2025-08-02T13-02-30.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_handitype_1280x800_2025-08-02T13-02-30.png",
+      "timestamp": "2025-08-02T13-02-30",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "haramosh",
+      "filename": "orkun_caylar_haramosh_1280x800_2025-08-02T13-02-30.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_haramosh_1280x800_2025-08-02T13-02-30.png",
+      "timestamp": "2025-08-02T13-02-30",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "herlando",
+      "filename": "orkun_caylar_herlando_1280x800_2025-08-02T13-02-30.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_herlando_1280x800_2025-08-02T13-02-30.png",
+      "timestamp": "2025-08-02T13-02-30",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "jackyband",
+      "filename": "orkun_caylar_jackyband_1280x800_2025-08-02T13-02-30.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_jackyband_1280x800_2025-08-02T13-02-30.png",
+      "timestamp": "2025-08-02T13-02-30",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "jennifer",
+      "filename": "orkun_caylar_jennifer_1280x800_2025-08-02T13-02-30.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_jennifer_1280x800_2025-08-02T13-02-30.png",
+      "timestamp": "2025-08-02T13-02-30",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": true,
+      "styleId": "kosakatta",
+      "filename": "orkun_caylar_kosakatta_1280x800_2025-08-02T13-02-31.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_kosakatta_1280x800_2025-08-02T13-02-31.png",
+      "timestamp": "2025-08-02T13-02-31",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "kristal",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "madeleine",
+      "filename": "orkun_caylar_madeleine_1280x800_2025-08-02T13-02-31.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_madeleine_1280x800_2025-08-02T13-02-31.png",
+      "timestamp": "2025-08-02T13-02-31",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "maritgode",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "marlies",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "milatones_signature",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "peter_jhons",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "rackithan",
+      "filename": "orkun_caylar_rackithan_1280x800_2025-08-02T13-02-32.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_rackithan_1280x800_2025-08-02T13-02-32.png",
+      "timestamp": "2025-08-02T13-02-32",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "ray_signature",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "richardson_script",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "rosemary_signature",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "saio",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "slender",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "splash_underline",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": false,
+      "styleId": "thejacklyn",
+      "error": "Request failed with status code 500"
+    },
+    {
+      "success": true,
+      "styleId": "tottenham",
+      "filename": "orkun_caylar_tottenham_1280x800_2025-08-02T13-02-33.png",
+      "path": "/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/@data/signatures-1280x800/orkun_caylar_tottenham_1280x800_2025-08-02T13-02-33.png",
+      "timestamp": "2025-08-02T13-02-33",
+      "dimensions": {
+        "width": 1280,
+        "height": 800,
+        "format": "png"
+      }
+    },
+    {
+      "success": false,
+      "styleId": "singletone",
+      "error": "Request failed with status code 500"
+    }
+  ]
+}

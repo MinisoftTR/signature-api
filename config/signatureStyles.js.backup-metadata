@@ -1,0 +1,867 @@
+const path = require('path');
+
+// Signature style configurations - AUTO GENERATED - UPDATED WITH NEW FONTS
+const signatureStyles = [
+  // Premium Signature Fonts
+  {
+    id: 'birmingham_script',
+    name: 'Birmingham Script',
+    imageUrl: '/api/miniAssets/styles/birmingham_script.png',
+    isPro: true,
+    fontStyle: 'birmingham_script',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Birmingham_Script.otf'),
+      family: 'Birmingham Script',
+      color: '#000000',
+      size: 520,
+      italic: false,
+      weight: 'normal',
+    },
+    fontMetrics: {
+      capHeight: null,
+      ascender: null,
+      descender: null,
+      hasLigatures: true,
+      hasKerning: true,
+      baselineRatio: 0.62
+    }
+  },
+  {
+    id: 'adustine_signature',
+    name: 'Adustine Signature',
+    imageUrl: '/api/miniAssets/styles/adustine_signature.png',
+    isPro: true,
+    fontStyle: 'adustine_signature',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Adustine_Signature.otf'),
+      family: 'Adustine Signature',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'delicate_flow',
+    name: 'Delicate Flow',
+    imageUrl: '/api/miniAssets/styles/delicate_flow.png',
+    isPro: true,
+    fontStyle: 'delicate_flow',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Delicate_Flow.otf'),
+      family: 'Delicate Flow',
+      color: '#000000',
+      size: 520,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'hereditary',
+    name: 'Hereditary',
+    imageUrl: '/api/miniAssets/styles/hereditary.png',
+    isPro: true,
+    fontStyle: 'hereditary',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Hereditary.otf'),
+      family: 'Hereditary',
+      color: '#000000',
+      size: 560,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'jorima_signature_brush',
+    name: 'Jorima Signature Brush',
+    imageUrl: '/api/miniAssets/styles/jorima_signature_brush.png',
+    isPro: true,
+    fontStyle: 'jorima_signature_brush',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Jorima_Signature_Brush.otf'),
+      family: 'Jorima Signature Brush',
+      color: '#000000',
+      size: 540,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'migratory',
+    name: 'Migratory',
+    imageUrl: '/api/miniAssets/styles/migratory.png',
+    isPro: true,
+    fontStyle: 'migratory',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Migratory.otf'),
+      family: 'Migratory',
+      color: '#000000',
+      size: 500,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'almatian',
+    name: 'Almatian',
+    imageUrl: '/api/miniAssets/styles/almatian.png',
+    isPro: true,
+    fontStyle: 'almatian',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Almatian.otf'),
+      family: 'Almatian',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'blondeyrich',
+    name: 'BlondeyRich',
+    imageUrl: '/api/miniAssets/styles/blondeyrich.png',
+    isPro: true,
+    fontStyle: 'blondeyrich',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/BlondeyRich.otf'),
+      family: 'BlondeyRich',
+      color: '#000000',
+      size: 500,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'cassavania',
+    name: 'Cassavania',
+    imageUrl: '/api/miniAssets/styles/cassavania.png',
+    isPro: true,
+    fontStyle: 'cassavania',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Cassavania.otf'),
+      family: 'Cassavania',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'aesthero',
+    name: 'Aesthero',
+    imageUrl: '/api/miniAssets/styles/aesthero.png',
+    isPro: true,
+    fontStyle: 'aesthero',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Aesthero.otf'),
+      family: 'Aesthero',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'harisna',
+    name: 'Harisna',
+    imageUrl: '/api/miniAssets/styles/harisna.png',
+    isPro: true,
+    fontStyle: 'harisna',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Harisna.otf'),
+      family: 'Harisna',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'miyake_regular',
+    name: 'Miyake Regular',
+    imageUrl: '/api/miniAssets/styles/miyake_regular.png',
+    isPro: true,
+    fontStyle: 'miyake_regular',
+    category: 'modern',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Miyake-Regular.otf'),
+      family: 'Miyake Regular',
+      color: '#000000',
+      size: 440,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'helmwick_regular',
+    name: 'Helmwick Regular',
+    imageUrl: '/api/miniAssets/styles/helmwick_regular.png',
+    isPro: true,
+    fontStyle: 'helmwick_regular',
+    category: 'modern',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Helmwick-Regular.otf'),
+      family: 'Helmwick Regular',
+      color: '#000000',
+      size: 440,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  
+  // Free Signature Fonts
+  {
+    id: 'cartines_signatures',
+    name: 'Cartines Signatures',
+    imageUrl: '/api/miniAssets/styles/cartines_signatures.png',
+    isPro: false,
+    fontStyle: 'cartines_signatures',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Cartines_Signatures.otf'),
+      family: 'Cartines Signatures',
+      color: '#000000',
+      size: 500,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'restflaws',
+    name: 'Restflaws',
+    imageUrl: '/api/miniAssets/styles/restflaws.png',
+    isPro: false,
+    fontStyle: 'restflaws',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Restflaws.otf'),
+      family: 'Restflaws',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'wamelo',
+    name: 'Wamelo',
+    imageUrl: '/api/miniAssets/styles/wamelo.png',
+    isPro: false,
+    fontStyle: 'wamelo',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Wamelo.otf'),
+      family: 'Wamelo',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'thoderan_notes',
+    name: 'Thoderan Notes',
+    imageUrl: '/api/miniAssets/styles/thoderan_notes.png',
+    isPro: false,
+    fontStyle: 'thoderan_notes',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/ThoderanNotes.otf'),
+      family: 'Thoderan Notes',
+      color: '#000000',
+      size: 520,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'kagem_sinten',
+    name: 'Kagem Sinten',
+    imageUrl: '/api/miniAssets/styles/kagem_sinten.png',
+    isPro: false,
+    fontStyle: 'kagem_sinten',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Kagem_Sinten.otf'),
+      family: 'Kagem Sinten',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'baselliost',
+    name: 'Baselliost',
+    imageUrl: '/api/miniAssets/styles/baselliost.png',
+    isPro: false,
+    fontStyle: 'baselliost',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Baselliost.otf'),
+      family: 'Baselliost',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'pakody_signature',
+    name: 'Pakody Signature',
+    imageUrl: '/api/miniAssets/styles/pakody_signature.png',
+    isPro: false,
+    fontStyle: 'pakody_signature',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Pakody_Signature.otf'),
+      family: 'Pakody Signature',
+      color: '#000000',
+      size: 540,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'boiled_peanuts_signature',
+    name: 'Boiled Peanuts Signature',
+    imageUrl: '/api/miniAssets/styles/boiled_peanuts_signature.png',
+    isPro: false,
+    fontStyle: 'boiled_peanuts_signature',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Boiled_Peanuts_Signature.otf'),
+      family: 'Boiled Peanuts Signature',
+      color: '#000000',
+      size: 520,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'brian_wiliam_signature',
+    name: 'Brian Wiliam Signature',
+    imageUrl: '/api/miniAssets/styles/brian_wiliam_signature.png',
+    isPro: false,
+    fontStyle: 'brian_wiliam_signature',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Brian_Wiliam_Signature.otf'),
+      family: 'Brian Wiliam Signature',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  
+  // Existing Fonts (Updated)
+  {
+    id: 'blastiks',
+    name: 'Blastiks',
+    imageUrl: '/api/miniAssets/styles/blastiks.png',
+    isPro: false,
+    fontStyle: 'blastiks',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Blastiks.otf'),
+      family: 'Blastiks',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'breakloft',
+    name: 'Breakloft',
+    imageUrl: '/api/miniAssets/styles/breakloft.png',
+    isPro: false,
+    fontStyle: 'breakloft',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Breakloft.otf'),
+      family: 'Breakloft',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'bresley',
+    name: 'Bresley',
+    imageUrl: '/api/miniAssets/styles/bresley.png',
+    isPro: false,
+    fontStyle: 'bresley',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Bresley.otf'),
+      family: 'Bresley',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'callifornia',
+    name: 'Callifornia',
+    imageUrl: '/api/miniAssets/styles/callifornia.png',
+    isPro: false,
+    fontStyle: 'callifornia',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Callifornia.otf'),
+      family: 'Callifornia',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'castenivey',
+    name: 'Castenivey',
+    imageUrl: '/api/miniAssets/styles/castenivey.png',
+    isPro: false,
+    fontStyle: 'castenivey',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Castenivey.otf'),
+      family: 'Castenivey',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'enternity',
+    name: 'Enternity',
+    imageUrl: '/api/miniAssets/styles/enternity.png',
+    isPro: false,
+    fontStyle: 'enternity',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Enternity.otf'),
+      family: 'Enternity',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'etiquette',
+    name: 'Etiquette',
+    imageUrl: '/api/miniAssets/styles/etiquette.png',
+    isPro: false,
+    fontStyle: 'etiquette',
+    category: 'classic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Etiquette.otf'),
+      family: 'Etiquette',
+      color: '#000000',
+      size: 400,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'fallen_city',
+    name: 'Fallen City',
+    imageUrl: '/api/miniAssets/styles/fallen_city.png',
+    isPro: false,
+    fontStyle: 'fallen_city',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Fallen_City.otf'),
+      family: 'FallenCity',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'flavellya',
+    name: 'Flavellya',
+    imageUrl: '/api/miniAssets/styles/flavellya.png',
+    isPro: false,
+    fontStyle: 'flavellya',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Flavellya.otf'),
+      family: 'Flavellya',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'handestonie',
+    name: 'Handestonie',
+    imageUrl: '/api/miniAssets/styles/handestonie.png',
+    isPro: false,
+    fontStyle: 'handestonie',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Handestonie.otf'),
+      family: 'Handestonie',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'handitype',
+    name: 'Handitype',
+    imageUrl: '/api/miniAssets/styles/handitype.png',
+    isPro: false,
+    fontStyle: 'handitype',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Handitype.otf'),
+      family: 'Handitype',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'haramosh',
+    name: 'Haramosh',
+    imageUrl: '/api/miniAssets/styles/haramosh.png',
+    isPro: false,
+    fontStyle: 'haramosh',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Haramosh.otf'),
+      family: 'Haramosh',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'herlando',
+    name: 'Herlando',
+    imageUrl: '/api/miniAssets/styles/herlando.png',
+    isPro: false,
+    fontStyle: 'herlando',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Herlando.otf'),
+      family: 'Herlando',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'jackyband',
+    name: 'Jackyband',
+    imageUrl: '/api/miniAssets/styles/jackyband.png',
+    isPro: false,
+    fontStyle: 'jackyband',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Jackyband.otf'),
+      family: 'Jackyband',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'jennifer',
+    name: 'Jennifer',
+    imageUrl: '/api/miniAssets/styles/jennifer.png',
+    isPro: false,
+    fontStyle: 'jennifer',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Jennifer.otf'),
+      family: 'Jennifer',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'kosakatta',
+    name: 'Kosakatta',
+    imageUrl: '/api/miniAssets/styles/kosakatta.png',
+    isPro: false,
+    fontStyle: 'kosakatta',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Kosakatta.otf'),
+      family: 'Kosakatta',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'kristal',
+    name: 'Kristal',
+    imageUrl: '/api/miniAssets/styles/kristal.png',
+    isPro: false,
+    fontStyle: 'kristal',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Kristal.otf'),
+      family: 'Kristal',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'madeleine',
+    name: 'Madeleine',
+    imageUrl: '/api/miniAssets/styles/madeleine.png',
+    isPro: false,
+    fontStyle: 'madeleine',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Madeleine.otf'),
+      family: 'Madeleine',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'maritgode',
+    name: 'Maritgode',
+    imageUrl: '/api/miniAssets/styles/maritgode.png',
+    isPro: false,
+    fontStyle: 'maritgode',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Maritgode.otf'),
+      family: 'Maritgode',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'rackithan',
+    name: 'Rackithan',
+    imageUrl: '/api/miniAssets/styles/rackithan.png',
+    isPro: false,
+    fontStyle: 'rackithan',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Rackithan.otf'),
+      family: 'Rackithan',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'saio',
+    name: 'Saio',
+    imageUrl: '/api/miniAssets/styles/saio.png',
+    isPro: false,
+    fontStyle: 'saio',
+    category: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Saio.otf'),
+      family: 'Saio',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'slender',
+    name: 'Slender',
+    imageUrl: '/api/miniAssets/styles/slender.png',
+    isPro: false,
+    fontStyle: 'slender',
+    category: 'modern',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Slender.otf'),
+      family: 'Slender',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'tottenham',
+    name: 'Tottenham',
+    imageUrl: '/api/miniAssets/styles/tottenham.png',
+    isPro: false,
+    fontStyle: 'tottenham',
+    category: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Tottenham.otf'),
+      family: 'Tottenham',
+      color: '#000000',
+      size: 480,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'singletone',
+    name: 'singletone',
+    imageUrl: '/api/miniAssets/styles/singletone.png',
+    isPro: false,
+    fontStyle: 'singletone',
+    category: 'modern',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/singletone.otf'),
+      family: 'singletone',
+      color: '#000000',
+      size: 400,
+      italic: false,
+      weight: 'normal',
+    }
+  }
+];
+
+// Get all signature styles
+const getAllStyles = () => {
+  return signatureStyles;
+};
+
+// Get style by ID
+const getStyleById = (id) => {
+  return signatureStyles.find(style => style.id === id);
+};
+
+// Get styles by category (free vs pro)
+const getStylesByCategory = (isPro = false) => {
+  return signatureStyles.filter(style => style.isPro === isPro && !style.isCustomize);
+};
+
+// Get font configuration for style - dinamik versiyon
+const getFontConfigForStyle = (styleId) => {
+  const fs = require('fs');
+
+  // Önce statik yapılandırmayı kontrol et
+  const staticStyle = getStyleById(styleId);
+  if (staticStyle && staticStyle.fontConfig) {
+    return staticStyle.fontConfig;
+  }
+
+  // Dinamik font yapılandırması oluştur
+  const fontsDir = path.join(__dirname, '../fonts');
+  if (!fs.existsSync(fontsDir)) {
+    return null;
+  }
+
+  const fontFiles = fs.readdirSync(fontsDir);
+
+  // StyleId'yi font dosyasına dönüştür
+  const searchName = styleId.replace(/_/g, ' ');
+
+  for (const file of fontFiles) {
+    const ext = path.extname(file).toLowerCase();
+    if (ext === '.ttf' || ext === '.otf') {
+      const baseName = path.basename(file, ext);
+      const cleanName = baseName.replace(/_/g, ' ').trim();
+
+      if (cleanName.toLowerCase() === searchName.toLowerCase()) {
+        const category = categorizeFont(cleanName);
+        return {
+          path: path.join(fontsDir, file),
+          family: cleanName.replace(/\s+/g, ''),
+          color: getDefaultColorForCategory(category),
+          size: getDefaultSizeForCategory(category),
+          italic: cleanName.toLowerCase().includes('italic'),
+          weight: cleanName.toLowerCase().includes('bold') ? 'bold' : 'normal',
+        };
+      }
+    }
+  }
+
+  // Bulunamadığında varsayılan elegant kullan
+  return getStyleById('elegant')?.fontConfig || null;
+};
+
+// Helper functions
+function categorizeFont(fontName) {
+  const name = fontName.toLowerCase();
+
+  if (name.includes('signature') || name.includes('script')) {
+    return 'signature';
+  } else if (name.includes('elegant') || name.includes('classy')) {
+    return 'elegant';
+  } else if (name.includes('bold') || name.includes('strong')) {
+    return 'bold';
+  } else if (name.includes('modern') || name.includes('contemporary')) {
+    return 'modern';
+  } else if (name.includes('classic') || name.includes('traditional')) {
+    return 'classic';
+  } else if (name.includes('artistic') || name.includes('creative')) {
+    return 'artistic';
+  } else if (name.includes('professional') || name.includes('business')) {
+    return 'professional';
+  } else if (name.includes('minimal') || name.includes('simple')) {
+    return 'minimalist';
+  } else {
+    return 'general';
+  }
+}
+
+function getDefaultColorForCategory(category) {
+  // All signatures will be black
+  return '#000000';
+}
+
+function getDefaultSizeForCategory(category) {
+  const sizeMap = {
+    'signature': 520,
+    'elegant': 480,
+    'bold': 560,
+    'modern': 440,
+    'classic': 400,
+    'artistic': 560,
+    'professional': 440,
+    'minimalist': 360,
+    'general': 480
+  };
+  return sizeMap[category] || 480;
+}
+
+module.exports = {
+  signatureStyles,
+  getAllStyles,
+  getStyleById,
+  getStylesByCategory,
+  getFontConfigForStyle
+};

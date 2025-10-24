@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-13",
+  "lastUpdated": "2025-08-13T23:57:29.549Z",
+  "totalPDFs": 7,
+  "totalMetadataFiles": 7,
+  "totalFiles": 14,
+  "totalSizeBytes": 1824597,
+  "totalSizeMB": 1.74,
+  "averageFileSizeMB": 0.25,
+  "files": {
+    "pdf": [
+      "2025-08-13T13-40-42-649Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-13T19-06-44-891Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-13T19-29-46-764Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-13T20-12-39-795Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+      "2025-08-13T21-23-11-151Z_frontend_development_roadmap_2024_1711858842.pdf",
+      "2025-08-13T22-38-15-788Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.pdf",
+      "2025-08-13T23-57-29-547Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.pdf"
+    ],
+    "metadata": [
+      "2025-08-13T13-40-42-649Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-13T19-06-44-891Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-13T19-29-46-764Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-13T20-12-39-795Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json",
+      "2025-08-13T21-23-11-151Z_frontend_development_roadmap_2024_1711858842.json",
+      "2025-08-13T22-38-15-788Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.json",
+      "2025-08-13T23-57-29-547Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.json"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Due Few",
+  "totalRequests": 2,
+  "successfulRequests": 2,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "quixel"
+  ],
+  "firstRequest": "2025-09-25T13:29:12.736Z",
+  "lastRequest": "2025-09-25T13:29:12.741Z",
+  "clientIPs": [
+    "192.168.1.13"
+  ]
+}

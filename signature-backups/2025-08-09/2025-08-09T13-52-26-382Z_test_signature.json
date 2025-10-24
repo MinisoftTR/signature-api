@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-09T13:52:26.382Z",
+  "clientIP": "127.0.0.1",
+  "originalFileName": "test_signature",
+  "metadata": {
+    "userAgent": "Test Client",
+    "version": "1.0",
+    "source": "API Test"
+  },
+  "signatureData": {
+    "type": "base64",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+  },
+  "fileInfo": {
+    "size": 98,
+    "backupFileName": "2025-08-09T13-52-26-382Z_test_signature.json"
+  }
+}

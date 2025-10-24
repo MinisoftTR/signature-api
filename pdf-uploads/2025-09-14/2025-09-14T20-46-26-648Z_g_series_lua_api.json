@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-14T20:46:26.648Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "G_series_Lua_API.pdf",
+  "savedFileName": "2025-09-14T20-46-26-648Z_g_series_lua_api.pdf",
+  "fileSize": 192058,
+  "fileSizeMB": 0.18316078186035156,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 3
+  }
+}

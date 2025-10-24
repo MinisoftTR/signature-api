@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-16T00:06:40.622Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "signed_1757978500504_9tjvvwfuxbw_AI_Scan_1757978473190.pdf",
+  "savedFileName": "2025-09-16T00-06-40-622Z_signed_1757978500504_9tjvvwfuxbw_ai_scan_1757978473190.pdf",
+  "fileSize": 1857952,
+  "fileSizeMB": 1.771881103515625,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 6
+  }
+}

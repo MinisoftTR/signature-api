@@ -1,0 +1,9 @@
+/* Webfont: LingkawiSouth-Regular */@font-face {
+    font-family: 'LingkawiSouth';
+    src: url('Lingkawi South.woff2') format('woff2'), /* Modern Browsers */
+         url('Lingkawi South.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

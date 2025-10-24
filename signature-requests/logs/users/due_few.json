@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-09-25T13:29:12.736Z",
+    "type": "signature_generation",
+    "name_requested": "Due Few",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.13"
+  },
+  {
+    "timestamp": "2025-09-25T13:29:12.741Z",
+    "type": "signature_generation",
+    "name_requested": "Due Few",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.13"
+  }
+]

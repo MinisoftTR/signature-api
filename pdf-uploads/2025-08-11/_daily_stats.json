@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-11",
+  "lastUpdated": "2025-08-11T20:11:10.574Z",
+  "totalPDFs": 7,
+  "totalMetadataFiles": 7,
+  "totalFiles": 14,
+  "totalSizeBytes": 5346662,
+  "totalSizeMB": 5.1,
+  "averageFileSizeMB": 0.73,
+  "files": {
+    "pdf": [
+      "2025-08-11T18-52-29-575Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-11T18-54-14-030Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-11T19-23-53-572Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+      "2025-08-11T19-25-53-717Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+      "2025-08-11T19-33-58-535Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+      "2025-08-11T19-35-18-180Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+      "2025-08-11T20-11-10-571Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf"
+    ],
+    "metadata": [
+      "2025-08-11T18-52-29-575Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-11T18-54-14-030Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-11T19-23-53-572Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json",
+      "2025-08-11T19-25-53-717Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json",
+      "2025-08-11T19-33-58-535Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json",
+      "2025-08-11T19-35-18-180Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json",
+      "2025-08-11T20-11-10-571Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.json"
+    ]
+  }
+}

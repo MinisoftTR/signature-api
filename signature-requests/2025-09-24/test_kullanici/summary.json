@@ -1,0 +1,14 @@
+{
+  "name": "Test Kullanici",
+  "totalRequests": 1,
+  "successfulRequests": 1,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "nexus"
+  ],
+  "firstRequest": "2025-09-24T00:10:08.301Z",
+  "lastRequest": "2025-09-24T00:10:08.301Z",
+  "clientIPs": [
+    "192.168.1.13"
+  ]
+}

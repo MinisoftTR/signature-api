@@ -1,0 +1,9 @@
+/* Webfont: KristofRamos-Regular */@font-face {
+    font-family: 'KristofRamos';
+    src: url('Kristof Ramos.woff2') format('woff2'), /* Modern Browsers */
+         url('Kristof Ramos.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-11T19:23:53.572Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "1753978183506_07.03.2021_AXESS_Hesap_Ozetiniz.pdf",
+  "savedFileName": "2025-08-11T19-23-53-572Z_1753978183506_07.03.2021_axess_hesap_ozetiniz.pdf",
+  "fileSize": 1021906,
+  "fileSizeMB": 0.9745655059814453,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 4
+  }
+}

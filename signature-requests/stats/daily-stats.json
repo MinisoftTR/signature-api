@@ -1,0 +1,120 @@
+{
+  "2025-09-17": {
+    "totalRequests": 348,
+    "successfulRequests": 348,
+    "failedRequests": 0,
+    "uniqueUsers": [
+      "orkun_c",
+      "test_organizasyon",
+      "we",
+      "mehmet_ali_celik",
+      "ca_lar_len",
+      "orkun_caylar"
+    ],
+    "uniqueStyles": [
+      "quixel",
+      "coral",
+      "zephyr",
+      "prism",
+      "lunar",
+      "drift",
+      "twist",
+      "magic",
+      "tidal",
+      "amber",
+      "glacial",
+      "celestial",
+      "flux",
+      "vortex",
+      "ember",
+      "pixel",
+      "ocean",
+      "chrome",
+      "cloud",
+      "wave",
+      "swift",
+      "bloom",
+      "cyber",
+      "crystal",
+      "blossom",
+      "radiant",
+      "digital",
+      "sharp",
+      "nexus",
+      "crisp",
+      "storm",
+      "spark",
+      "frost",
+      "blaze",
+      "ghost",
+      "ridge",
+      "stone",
+      "pulse",
+      "flame",
+      "creek",
+      "blade",
+      "pearl",
+      "thunder",
+      "inferno"
+    ],
+    "clientIPs": [
+      "192.168.1.23",
+      "127.0.0.1"
+    ]
+  },
+  "2025-09-23": {
+    "totalRequests": 2,
+    "successfulRequests": 2,
+    "failedRequests": 0,
+    "uniqueUsers": [
+      "few_few_dwq"
+    ],
+    "uniqueStyles": [
+      "quixel"
+    ],
+    "clientIPs": [
+      "192.168.1.12"
+    ]
+  },
+  "2025-09-24": {
+    "totalRequests": 1,
+    "successfulRequests": 1,
+    "failedRequests": 0,
+    "uniqueUsers": [
+      "test_kullanici"
+    ],
+    "uniqueStyles": [
+      "nexus"
+    ],
+    "clientIPs": [
+      "192.168.1.13"
+    ]
+  },
+  "2025-09-25": {
+    "totalRequests": 18,
+    "successfulRequests": 18,
+    "failedRequests": 0,
+    "uniqueUsers": [
+      "due_few",
+      "due_f",
+      "df",
+      "few_died",
+      "few_few"
+    ],
+    "uniqueStyles": [
+      "quixel",
+      "blaze",
+      "ocean",
+      "chrome",
+      "stone",
+      "pulse",
+      "pearl",
+      "glacial",
+      "digital"
+    ],
+    "clientIPs": [
+      "192.168.1.13",
+      "127.0.0.1"
+    ]
+  }
+}

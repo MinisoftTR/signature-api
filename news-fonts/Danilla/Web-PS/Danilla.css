@@ -1,0 +1,9 @@
+/* Webfont: Danilla-Regular */@font-face {
+    font-family: 'Danilla';
+    src: url('script-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('script-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

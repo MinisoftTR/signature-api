@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-13T19:29:46.764Z",
+  "clientIP": "192.168.1.9",
+  "originalFileName": "2025 Temmuz ayı hesap özetiniz.pdf",
+  "savedFileName": "2025-08-13T19-29-46-764Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+  "fileSize": 118566,
+  "fileSizeMB": 0.11307334899902344,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 2
+  }
+}

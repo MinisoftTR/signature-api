@@ -1,0 +1,22 @@
+{
+  "date": "2025-08-17",
+  "lastUpdated": "2025-08-17T14:58:40.552Z",
+  "totalPDFs": 3,
+  "totalMetadataFiles": 3,
+  "totalFiles": 6,
+  "totalSizeBytes": 2433217,
+  "totalSizeMB": 2.32,
+  "averageFileSizeMB": 0.77,
+  "files": {
+    "pdf": [
+      "2025-08-17T14-36-58-303Z_tahsilatid_2638273308.pdf",
+      "2025-08-17T14-57-17-075Z_bursa_24.pdf",
+      "2025-08-17T14-58-40-546Z_bursa_24.pdf"
+    ],
+    "metadata": [
+      "2025-08-17T14-36-58-303Z_tahsilatid_2638273308.json",
+      "2025-08-17T14-57-17-075Z_bursa_24.json",
+      "2025-08-17T14-58-40-546Z_bursa_24.json"
+    ]
+  }
+}

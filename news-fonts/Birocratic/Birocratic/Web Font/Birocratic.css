@@ -1,0 +1,12 @@
+/* Webfont: Birocratic */@font-face {
+    font-family: 'Birocratic';
+    src: url('Birocratic.eot'); /* IE9 Compat Modes */
+    src: url('Birocratic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Birocratic.woff') format('woff'), /* Modern Browsers */
+         url('Birocratic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Birocratic.svg#Birocratic') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

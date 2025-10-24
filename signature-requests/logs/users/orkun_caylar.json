@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-09-17T22:28:11.915Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:28:52.340Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:36:26.696Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:36:35.906Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  }
+]

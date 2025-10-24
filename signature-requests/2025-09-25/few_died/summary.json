@@ -1,0 +1,22 @@
+{
+  "name": "Few Died",
+  "totalRequests": 10,
+  "successfulRequests": 10,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "quixel",
+    "blaze",
+    "ocean",
+    "chrome",
+    "stone",
+    "pulse",
+    "pearl",
+    "glacial",
+    "digital"
+  ],
+  "firstRequest": "2025-09-25T22:23:01.345Z",
+  "lastRequest": "2025-09-25T22:23:29.292Z",
+  "clientIPs": [
+    "127.0.0.1"
+  ]
+}

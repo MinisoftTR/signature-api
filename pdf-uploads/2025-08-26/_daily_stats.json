@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-26",
+  "lastUpdated": "2025-08-26T13:24:50.677Z",
+  "totalPDFs": 10,
+  "totalMetadataFiles": 10,
+  "totalFiles": 20,
+  "totalSizeBytes": 2005796,
+  "totalSizeMB": 1.91,
+  "averageFileSizeMB": 0.19,
+  "files": {
+    "pdf": [
+      "2025-08-26T01-15-40-396Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.pdf",
+      "2025-08-26T13-01-20-623Z_doc-20250709-wa0022.pdf",
+      "2025-08-26T13-05-40-496Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-26T13-08-22-022Z_yerlesim-yeri-ve-diger-adres_imzali.pdf",
+      "2025-08-26T13-11-27-981Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-26T13-18-24-681Z_2025_temmuz_ay_hesap_o_zetiniz.pdf",
+      "2025-08-26T13-18-49-554Z_00001399-6250c23f121ec040d61e3380.pdf",
+      "2025-08-26T13-22-43-237Z_kobi_belgesi_.pdf",
+      "2025-08-26T13-24-20-972Z_yerlesim-yeri-ve-diger-adres_imzali.pdf",
+      "2025-08-26T13-24-50-674Z_yerlesim-yeri-ve-diger-adres_imzali_imzali.pdf"
+    ],
+    "metadata": [
+      "2025-08-26T01-15-40-396Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.json",
+      "2025-08-26T13-01-20-623Z_doc-20250709-wa0022.json",
+      "2025-08-26T13-05-40-496Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-26T13-08-22-022Z_yerlesim-yeri-ve-diger-adres_imzali.json",
+      "2025-08-26T13-11-27-981Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-26T13-18-24-681Z_2025_temmuz_ay_hesap_o_zetiniz.json",
+      "2025-08-26T13-18-49-554Z_00001399-6250c23f121ec040d61e3380.json",
+      "2025-08-26T13-22-43-237Z_kobi_belgesi_.json",
+      "2025-08-26T13-24-20-972Z_yerlesim-yeri-ve-diger-adres_imzali.json",
+      "2025-08-26T13-24-50-674Z_yerlesim-yeri-ve-diger-adres_imzali_imzali.json"
+    ]
+  }
+}

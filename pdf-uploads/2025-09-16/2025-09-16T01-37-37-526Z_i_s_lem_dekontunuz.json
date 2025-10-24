@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-16T01:37:37.526Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "İşlem dekontunuz.pdf",
+  "savedFileName": "2025-09-16T01-37-37-526Z_i_s_lem_dekontunuz.pdf",
+  "fileSize": 131373,
+  "fileSizeMB": 0.12528705596923828,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 1
+  }
+}

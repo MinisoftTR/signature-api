@@ -1,0 +1,48 @@
+{
+  "date": "2025-09-15",
+  "lastUpdated": "2025-09-15T23:44:04.227Z",
+  "totalPDFs": 16,
+  "totalMetadataFiles": 16,
+  "totalFiles": 32,
+  "totalSizeBytes": 2277521,
+  "totalSizeMB": 2.17,
+  "averageFileSizeMB": 0.14,
+  "files": {
+    "pdf": [
+      "2025-09-15T02-18-40-533Z_g_series_lua_api.pdf",
+      "2025-09-15T02-18-47-813Z_dekont.pdf",
+      "2025-09-15T14-03-44-162Z_dekont.pdf",
+      "2025-09-15T20-41-59-725Z_dekont.pdf",
+      "2025-09-15T20-42-27-433Z_1753979357653_1753978327789_1753978312003_terapi_evreni_-_test_dokuman.pdf",
+      "2025-09-15T20-42-40-452Z_00001399-6250c23f121ec040d61e3380.pdf",
+      "2025-09-15T20-51-12-665Z_dekont.pdf",
+      "2025-09-15T20-53-40-401Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.pdf",
+      "2025-09-15T21-23-14-609Z_mezuniyet.pdf",
+      "2025-09-15T21-31-02-515Z_mac_studio_sat_n_al_n_-_apple_tr_.pdf",
+      "2025-09-15T21-31-12-472Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-15T21-31-47-331Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-15T22-41-37-072Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-15T23-11-03-842Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-15T23-11-57-473Z_i_s_lem_dekontunuz.pdf",
+      "2025-09-15T23-44-04-225Z_i_s_lem_dekontunuz.pdf"
+    ],
+    "metadata": [
+      "2025-09-15T02-18-40-533Z_g_series_lua_api.json",
+      "2025-09-15T02-18-47-813Z_dekont.json",
+      "2025-09-15T14-03-44-162Z_dekont.json",
+      "2025-09-15T20-41-59-725Z_dekont.json",
+      "2025-09-15T20-42-27-433Z_1753979357653_1753978327789_1753978312003_terapi_evreni_-_test_dokuman.json",
+      "2025-09-15T20-42-40-452Z_00001399-6250c23f121ec040d61e3380.json",
+      "2025-09-15T20-51-12-665Z_dekont.json",
+      "2025-09-15T20-53-40-401Z__leri_seviye_react_native_e_itim_m_fredat_1711884631.json",
+      "2025-09-15T21-23-14-609Z_mezuniyet.json",
+      "2025-09-15T21-31-02-515Z_mac_studio_sat_n_al_n_-_apple_tr_.json",
+      "2025-09-15T21-31-12-472Z_i_s_lem_dekontunuz.json",
+      "2025-09-15T21-31-47-331Z_i_s_lem_dekontunuz.json",
+      "2025-09-15T22-41-37-072Z_i_s_lem_dekontunuz.json",
+      "2025-09-15T23-11-03-842Z_i_s_lem_dekontunuz.json",
+      "2025-09-15T23-11-57-473Z_i_s_lem_dekontunuz.json",
+      "2025-09-15T23-44-04-225Z_i_s_lem_dekontunuz.json"
+    ]
+  }
+}

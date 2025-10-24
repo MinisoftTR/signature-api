@@ -1,0 +1,18 @@
+{
+  "date": "2025-09-19",
+  "lastUpdated": "2025-09-19T20:41:07.074Z",
+  "totalPDFs": 1,
+  "totalMetadataFiles": 1,
+  "totalFiles": 1,
+  "totalSizeBytes": 65,
+  "totalSizeMB": 0,
+  "averageFileSizeMB": 0,
+  "files": {
+    "pdf": [
+      "2025-09-19T20-41-07-074Z_test_document.pdf"
+    ],
+    "metadata": [
+      "2025-09-19T20-41-07-074Z_test_document.json"
+    ]
+  }
+}

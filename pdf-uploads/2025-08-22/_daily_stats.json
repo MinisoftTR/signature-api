@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-22",
+  "lastUpdated": "2025-08-22T17:51:21.948Z",
+  "totalPDFs": 4,
+  "totalMetadataFiles": 4,
+  "totalFiles": 8,
+  "totalSizeBytes": 1032440,
+  "totalSizeMB": 0.98,
+  "averageFileSizeMB": 0.25,
+  "files": {
+    "pdf": [
+      "2025-08-22T13-26-11-806Z_00001399-6250c23f121ec040d61e3380.pdf",
+      "2025-08-22T17-30-58-685Z_doc-20250709-wa0022.pdf",
+      "2025-08-22T17-50-57-819Z_2025_temmuz_ay_hesap_o_zetiniz_2.pdf",
+      "2025-08-22T17-51-21-946Z_hizmet-sozlesmesi-3-sayfa.pdf"
+    ],
+    "metadata": [
+      "2025-08-22T13-26-11-806Z_00001399-6250c23f121ec040d61e3380.json",
+      "2025-08-22T17-30-58-685Z_doc-20250709-wa0022.json",
+      "2025-08-22T17-50-57-819Z_2025_temmuz_ay_hesap_o_zetiniz_2.json",
+      "2025-08-22T17-51-21-946Z_hizmet-sozlesmesi-3-sayfa.json"
+    ]
+  }
+}

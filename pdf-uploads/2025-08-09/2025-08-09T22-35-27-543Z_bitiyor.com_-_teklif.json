@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-09T22:35:27.543Z",
+  "clientIP": "127.0.0.1",
+  "originalFileName": "bitiyor.com - Teklif.pdf",
+  "savedFileName": "2025-08-09T22-35-27-543Z_bitiyor.com_-_teklif.pdf",
+  "fileSize": 91643,
+  "fileSizeMB": 0.08739757537841797,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 2
+  }
+}

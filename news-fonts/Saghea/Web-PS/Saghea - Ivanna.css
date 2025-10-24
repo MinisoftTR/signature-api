@@ -1,0 +1,9 @@
+/* Webfont: Saghea-Regular */@font-face {
+    font-family: 'Saghea';
+    src: url('Saghea - Ivanna.woff2') format('woff2'), /* Modern Browsers */
+         url('Saghea - Ivanna.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

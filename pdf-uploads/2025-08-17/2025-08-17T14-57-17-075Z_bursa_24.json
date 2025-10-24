@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-17T14:57:17.075Z",
+  "clientIP": "192.168.1.248",
+  "originalFileName": "BURSA 24.pdf",
+  "savedFileName": "2025-08-17T14-57-17-075Z_bursa_24.pdf",
+  "fileSize": 1204807,
+  "fileSizeMB": 1.1489934921264648,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 9
+  }
+}

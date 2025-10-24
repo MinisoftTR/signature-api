@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(kill:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pkill:*)",
+      "Bash(node server.js)",
+      "Bash(PORT=3001 node server.js)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(xargs kill:*)",
+      "Bash(npm start)"
+    ],
+    "deny": []
+  }
+}

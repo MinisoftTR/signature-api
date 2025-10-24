@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-09-17T20:52:18.157Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:52:18.162Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:53:00.189Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  }
+]

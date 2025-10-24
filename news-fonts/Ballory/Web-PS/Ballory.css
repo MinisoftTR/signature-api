@@ -1,0 +1,9 @@
+/* Webfont: Ballory-Regular */@font-face {
+    font-family: 'Ballory';
+    src: url('Ballory.woff2') format('woff2'), /* Modern Browsers */
+         url('Ballory.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

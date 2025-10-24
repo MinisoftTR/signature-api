@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-25T15:41:32.687Z",
+  "clientIP": "192.168.1.95",
+  "originalFileName": "signed_document_1745675619503.pdf",
+  "savedFileName": "2025-08-25T15-41-32-687Z_signed_document_1745675619503.pdf",
+  "fileSize": 234711,
+  "fileSizeMB": 0.22383785247802734,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 2
+  }
+}

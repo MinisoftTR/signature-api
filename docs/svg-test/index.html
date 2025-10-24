@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile SVG Optimization Test Suite</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📱 Mobile SVG Optimization Test Suite</h1>
+            <p>Test and optimize signature SVGs for mobile containers (340x148)</p>
+        </header>
+
+        <div class="control-panel">
+            <div class="input-section">
+                <label for="nameInput">Test Name:</label>
+                <input type="text" id="nameInput" value="Orkun C." placeholder="Enter name to test">
+
+                <label for="fontSelect">Font Style:</label>
+                <select id="fontSelect">
+                    <option value="">Loading fonts...</option>
+                </select>
+
+                <button id="generateBtn">Generate & Test</button>
+                <button id="generateAllBtn">Generate All Fonts</button>
+            </div>
+
+            <div class="settings-section">
+                <h3>Mobile Container Settings</h3>
+                <div class="setting-group">
+                    <label for="containerWidth">Container Width:</label>
+                    <input type="number" id="containerWidth" value="340" min="200" max="500">
+                </div>
+                <div class="setting-group">
+                    <label for="containerHeight">Container Height:</label>
+                    <input type="number" id="containerHeight" value="148" min="100" max="300">
+                </div>
+                <div class="setting-group">
+                    <label for="safeZone">Safe Zone Padding:</label>
+                    <input type="number" id="safeZone" value="10" min="0" max="50">
+                </div>
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <div class="preview-container">
+                <h3>Mobile Preview (Actual Size)</h3>
+                <div class="mobile-simulator">
+                    <div class="mobile-container" id="mobileContainer">
+                        <div class="safe-zone" id="safeZone">
+                            <div id="svgPreview" class="svg-preview">
+                                <p>Generate a signature to see preview</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-info">
+                        <div class="dimension-info" id="dimensionInfo">
+                            Container: 340×148 | Safe Zone: 320×128
+                        </div>
+                        <div class="clipping-status" id="clippingStatus">
+                            Status: Ready
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="analysis-container">
+                <h3>Analysis Results</h3>
+                <div class="metrics" id="analysisResults">
+                    <div class="metric">
+                        <label>SVG Dimensions:</label>
+                        <span id="svgDimensions">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Clipping Risk:</label>
+                        <span id="clippingRisk" class="status-unknown">Unknown</span>
+                    </div>
+                    <div class="metric">
+                        <label>Font Size:</label>
+                        <span id="fontSize">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Text Width:</label>
+                        <span id="textWidth">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Quality Score:</label>
+                        <span id="qualityScore">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="samples-section">
+            <h3>Pre-generated Samples</h3>
+            <div class="samples-grid" id="samplesGrid">
+                <p>Loading samples...</p>
+            </div>
+        </div>
+
+        <div class="batch-test-section">
+            <h3>Batch Testing</h3>
+            <div class="batch-controls">
+                <button id="testAllFonts">Test All Fonts with "Orkun C."</button>
+                <button id="testLongNames">Test Long Names</button>
+                <button id="testTurkishChars">Test Turkish Characters</button>
+                <button id="exportResults">Export Test Results</button>
+            </div>
+            <div class="batch-results" id="batchResults">
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>Font</th>
+                            <th>Text</th>
+                            <th>Dimensions</th>
+                            <th>Clipping</th>
+                            <th>Quality</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/test-suite.js"></script>
+</body>
+</html>

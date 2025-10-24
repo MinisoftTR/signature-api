@@ -1,0 +1,16 @@
+{
+  "name": "Orkun Caylar",
+  "totalRequests": 4,
+  "successfulRequests": 4,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "ember",
+    "storm",
+    "wave"
+  ],
+  "firstRequest": "2025-09-17T22:28:11.915Z",
+  "lastRequest": "2025-09-17T22:36:35.906Z",
+  "clientIPs": [
+    "127.0.0.1"
+  ]
+}

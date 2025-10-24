@@ -1,0 +1,40 @@
+{
+  "date": "2025-09-14",
+  "lastUpdated": "2025-09-14T20:46:26.652Z",
+  "totalPDFs": 12,
+  "totalMetadataFiles": 12,
+  "totalFiles": 24,
+  "totalSizeBytes": 1629785,
+  "totalSizeMB": 1.55,
+  "averageFileSizeMB": 0.13,
+  "files": {
+    "pdf": [
+      "2025-09-14T00-07-51-254Z_akvo_gy.pdf",
+      "2025-09-14T00-19-41-212Z_akvo_gy.pdf",
+      "2025-09-14T00-31-42-206Z_akvo_gy.pdf",
+      "2025-09-14T00-32-11-432Z_g_series_lua_api.pdf",
+      "2025-09-14T00-43-27-077Z_g_series_lua_api.pdf",
+      "2025-09-14T00-49-53-405Z_g_series_lua_api.pdf",
+      "2025-09-14T00-56-17-106Z_publisher_overview_-_epinko_teknoloji.pdf",
+      "2025-09-14T17-04-02-756Z_g_series_lua_api.pdf",
+      "2025-09-14T17-38-35-260Z_publisher_overview_-_epinko_teknoloji.pdf",
+      "2025-09-14T17-38-52-913Z_g_series_lua_api.pdf",
+      "2025-09-14T18-52-00-039Z_dekont.pdf",
+      "2025-09-14T20-46-26-648Z_g_series_lua_api.pdf"
+    ],
+    "metadata": [
+      "2025-09-14T00-07-51-254Z_akvo_gy.json",
+      "2025-09-14T00-19-41-212Z_akvo_gy.json",
+      "2025-09-14T00-31-42-206Z_akvo_gy.json",
+      "2025-09-14T00-32-11-432Z_g_series_lua_api.json",
+      "2025-09-14T00-43-27-077Z_g_series_lua_api.json",
+      "2025-09-14T00-49-53-405Z_g_series_lua_api.json",
+      "2025-09-14T00-56-17-106Z_publisher_overview_-_epinko_teknoloji.json",
+      "2025-09-14T17-04-02-756Z_g_series_lua_api.json",
+      "2025-09-14T17-38-35-260Z_publisher_overview_-_epinko_teknoloji.json",
+      "2025-09-14T17-38-52-913Z_g_series_lua_api.json",
+      "2025-09-14T18-52-00-039Z_dekont.json",
+      "2025-09-14T20-46-26-648Z_g_series_lua_api.json"
+    ]
+  }
+}

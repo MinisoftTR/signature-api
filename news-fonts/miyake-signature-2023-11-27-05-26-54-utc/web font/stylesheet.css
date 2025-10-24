@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Miyake';
+    src: url('Miyake-Medium.eot');
+    src: url('Miyake-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Miyake-Medium.woff2') format('woff2'),
+        url('Miyake-Medium.woff') format('woff'),
+        url('Miyake-Medium.svg#Miyake-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miyake';
+    src: url('Miyake-Regular.eot');
+    src: url('Miyake-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Miyake-Regular.woff2') format('woff2'),
+        url('Miyake-Regular.woff') format('woff'),
+        url('Miyake-Regular.svg#Miyake-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

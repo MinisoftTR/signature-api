@@ -1,0 +1,11 @@
+/* Webfont: Scargent-Regular */@font-face {
+    font-family: 'Scargent';
+    src: url('Scargent.eot'); /* IE9 Compat Modes */
+    src: url('Scargent.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Scargent.woff') format('woff'), /* Modern Browsers */
+         url('Scargent.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

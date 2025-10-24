@@ -1,0 +1,41 @@
+objc[9886]: Class GNotificationCenterDelegate is implemented in both /Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/node_modules/canvas/build/Release/libgio-2.0.0.dylib (0x11da8c4b8) and /Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/node_modules/@img/sharp-libvips-darwin-arm64/lib/libvips-cpp.8.17.1.dylib (0x1211a1af0). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+Font yüklendi: FallenCity (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Fallen City.ttf)
+Font yüklendi: Marlies (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Marlies.ttf)
+Font yüklendi: Gillfloys (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/GIllfloys.ttf)
+Font yüklendi: Gillfloys (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/GIllfloys.ttf)
+Font yüklendi: GillfloyAlt (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Gillfloys alt.ttf)
+Font yüklendi: Marlies (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Marlies.ttf)
+Font yüklendi: FallenCity (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Fallen City.ttf)
+Font yüklendi: GillfloyAlt (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Gillfloys alt.ttf)
+Font yüklendi: Marlies (/Users/orkuncaylar/Dropbox/ActiveWorks/SignatureMaker/api/fonts/Marlies.ttf)
+Uygulama modu: Font tabanlı imza oluşturma
+API servisi 3001 portunda çalışıyor
+Local IP: http://192.168.1.9:3001
+Localhost: http://localhost:3001
+[2025-07-31T21:56:31.708Z] GET / - IP: 127.0.0.1
+[2025-07-31T21:56:36.286Z] GET /docs/ - IP: 127.0.0.1
+[2025-07-31T21:57:29.256Z] GET /docs/ - IP: 127.0.0.1
+[2025-07-31T21:57:29.547Z] GET /api/health - IP: 127.0.0.1
+[2025-07-31T21:57:29.568Z] GET /favicon.ico - IP: 127.0.0.1
+[2025-07-31T21:57:32.894Z] GET /api/health - IP: 127.0.0.1
+[2025-07-31T21:57:34.199Z] GET /api/styles - IP: 127.0.0.1
+[2025-07-31T21:57:37.314Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T21:57:40.445Z] GET /api/health - IP: 127.0.0.1
+[2025-07-31T21:57:44.826Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T21:57:46.961Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T21:57:48.860Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T21:57:50.721Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T21:57:52.968Z] POST /api/generate-signature - IP: 127.0.0.1
+Font tabanlı imza oluşturuluyor...
+[2025-07-31T23:12:33.511Z] GET /docs/ - IP: 127.0.0.1
+[2025-07-31T23:12:33.547Z] GET /api/health - IP: 127.0.0.1
+[2025-07-31T23:31:16.700Z] GET /api/config - IP: 127.0.0.1
+[2025-07-31T23:31:17.755Z] GET /api/config - IP: 127.0.0.1
+[2025-07-31T23:31:18.758Z] GET /api/config - IP: 127.0.0.1
+[2025-07-31T23:31:33.136Z] GET /api/config - IP: 127.0.0.1
+[2025-07-31T23:32:25.622Z] GET /api/config - IP: 127.0.0.1

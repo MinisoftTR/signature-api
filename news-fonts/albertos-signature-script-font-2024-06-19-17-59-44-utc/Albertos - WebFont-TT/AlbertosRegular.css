@@ -1,0 +1,13 @@
+/* Webfont: AlbertosRegular */@font-face {
+    font-family: 'Albertos';
+    src: url('AlbertosRegular.eot'); /* IE9 Compat Modes */
+    src: url('AlbertosRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('AlbertosRegular.woff2') format('woff2'), /* Modern Browsers */
+         url('AlbertosRegular.woff') format('woff'), /* Modern Browsers */
+         url('AlbertosRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('AlbertosRegular.svg#AlbertosRegular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-10T02:04:17.560Z",
+  "clientIP": "127.0.0.1",
+  "originalFileName": "Invoice-AB75677D-0011.pdf",
+  "savedFileName": "2025-08-10T02-04-17-560Z_invoice-ab75677d-0011.pdf",
+  "fileSize": 32612,
+  "fileSizeMB": 0.031101226806640625,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 1
+  }
+}

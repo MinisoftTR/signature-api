@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "generatedAt": "2025-09-17T21:01:28.674Z",
+    "testName": "Orkun C.",
+    "mobileConfig": {
+      "targetWidth": 340,
+      "targetHeight": 148,
+      "safeZoneWidth": 320,
+      "safeZoneHeight": 128
+    },
+    "totalFonts": 44
+  },
+  "summary": {
+    "total": 44,
+    "successful": 10,
+    "errors": 34,
+    "clippingRisks": {
+      "low": 0,
+      "medium": 0,
+      "high": 0
+    },
+    "categories": {
+      "elegant": 6,
+      "artistic": 4
+    },
+    "mobileOptimized": 0,
+    "averageQuality": 0
+  },
+  "results": [
+    {
+      "font": {
+        "name": "Phoenix",
+        "style": "zephyr",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Phoenix",
+        "fontStyle": "zephyr",
+        "fontCategory": "elegant",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Raven",
+        "style": "quixel",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Azure",
+        "style": "nexus",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Crimson",
+        "style": "vortex",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Mystic",
+        "style": "prism",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Mystic",
+        "fontStyle": "prism",
+        "fontCategory": "artistic",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Titan",
+        "style": "flux",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Nova",
+        "style": "crisp",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Echo",
+        "style": "ember",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Void",
+        "style": "storm",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Frost",
+        "style": "lunar",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Frost",
+        "fontStyle": "lunar",
+        "fontCategory": "elegant",
+        "isPro": false,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Zenith",
+        "style": "spark",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Onyx",
+        "style": "pixel",
+        "category": "modern",
+        "isPro": false
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Ivory",
+        "style": "frost",
+        "category": "modern",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Sage",
+        "style": "drift",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Sage",
+        "fontStyle": "drift",
+        "fontCategory": "elegant",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Mint",
+        "style": "blaze",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Rust",
+        "style": "ocean",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Coral",
+        "style": "ghost",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Rose",
+        "style": "chrome",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Pine",
+        "style": "twist",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Pine",
+        "fontStyle": "twist",
+        "fontCategory": "artistic",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Silk",
+        "style": "cloud",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Dusk",
+        "style": "ridge",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Dawn",
+        "style": "wave",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Night",
+        "style": "stone",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Gold",
+        "style": "magic",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Gold",
+        "fontStyle": "magic",
+        "fontCategory": "elegant",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Silver",
+        "style": "pulse",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Ruby",
+        "style": "swift",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Moon",
+        "style": "coral",
+        "category": "classic",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Star",
+        "style": "tidal",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Star",
+        "fontStyle": "tidal",
+        "fontCategory": "artistic",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Flavellya",
+        "style": "flame",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Wind",
+        "style": "bloom",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Rain",
+        "style": "creek",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Snow",
+        "style": "amber",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Snow",
+        "fontStyle": "amber",
+        "fontCategory": "artistic",
+        "isPro": true,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Fire",
+        "style": "blade",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "socket hang up",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Ice",
+        "style": "cyber",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Sand",
+        "style": "pearl",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Kosakatta",
+        "style": "crystal",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Kristal",
+        "style": "glacial",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Kristal",
+        "fontStyle": "glacial",
+        "fontCategory": "elegant",
+        "isPro": false,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Madeleine",
+        "style": "blossom",
+        "category": "elegant",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Maritgode",
+        "style": "thunder",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Rackithan",
+        "style": "radiant",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Saio",
+        "style": "celestial",
+        "category": "elegant",
+        "isPro": false
+      },
+      "success": true,
+      "error": null,
+      "analysis": {
+        "fontName": "Saio",
+        "fontStyle": "celestial",
+        "fontCategory": "elegant",
+        "isPro": false,
+        "hasBase64": true,
+        "hasSVG": false,
+        "estimatedWidth": 0,
+        "estimatedHeight": 0,
+        "clippingRisk": "Unknown",
+        "riskLevel": "unknown",
+        "qualityScore": 0,
+        "mobileOptimized": false
+      }
+    },
+    {
+      "font": {
+        "name": "Slender",
+        "style": "digital",
+        "category": "modern",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "Tottenham",
+        "style": "inferno",
+        "category": "artistic",
+        "isPro": true
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    },
+    {
+      "font": {
+        "name": "singletone",
+        "style": "sharp",
+        "category": "modern",
+        "isPro": false
+      },
+      "success": false,
+      "error": "",
+      "analysis": null
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "warning",
+      "title": "Low Quality Fonts",
+      "description": "10 fonts have quality scores below 60",
+      "fonts": [
+        "zephyr",
+        "prism",
+        "lunar",
+        "drift",
+        "twist",
+        "magic",
+        "tidal",
+        "amber",
+        "glacial",
+        "celestial"
+      ],
+      "action": "Review font sizing and container optimization"
+    },
+    {
+      "type": "improvement",
+      "title": "Mobile Optimization Needed",
+      "description": "Only 0 out of 44 fonts are fully mobile optimized",
+      "action": "Implement mobile-specific font sizing algorithm"
+    }
+  ]
+}

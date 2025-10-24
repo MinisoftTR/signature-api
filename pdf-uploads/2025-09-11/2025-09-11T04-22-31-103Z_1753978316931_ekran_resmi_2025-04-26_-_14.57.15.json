@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-11T04:22:31.103Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "1753978316931_Ekran_Resmi_2025-04-26_-_14.57.15.pdf",
+  "savedFileName": "2025-09-11T04-22-31-103Z_1753978316931_ekran_resmi_2025-04-26_-_14.57.15.pdf",
+  "fileSize": 197688,
+  "fileSizeMB": 0.18852996826171875,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 2
+  }
+}

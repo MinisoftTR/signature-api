@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-09-17T21:01:26.408Z",
+  "testName": "Orkun C.",
+  "font": {
+    "name": "Snow",
+    "style": "amber",
+    "category": "artistic",
+    "isPro": true
+  },
+  "mobileConfig": {
+    "targetWidth": 340,
+    "targetHeight": 148,
+    "safeZoneWidth": 320,
+    "safeZoneHeight": 128
+  },
+  "analysis": {
+    "fontName": "Snow",
+    "fontStyle": "amber",
+    "fontCategory": "artistic",
+    "isPro": true,
+    "hasBase64": true,
+    "hasSVG": false,
+    "estimatedWidth": 0,
+    "estimatedHeight": 0,
+    "clippingRisk": "Unknown",
+    "riskLevel": "unknown",
+    "qualityScore": 0,
+    "mobileOptimized": false
+  },
+  "files": {
+    "svg": null,
+    "png": "orkun_c_amber.png"
+  }
+}

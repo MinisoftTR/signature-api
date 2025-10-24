@@ -1,0 +1,11 @@
+/* Webfont: SignatureGonRegular */@font-face {
+    font-family: 'SignatureGon';
+    src: url('SignatureGon.eot'); /* IE9 Compat Modes */
+    src: url('SignatureGon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SignatureGon.woff') format('woff'), /* Modern Browsers */
+         url('SignatureGon.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

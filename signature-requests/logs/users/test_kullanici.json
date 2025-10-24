@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-09-24T00:10:08.301Z",
+    "type": "signature_generation",
+    "name_requested": "Test Kullanici",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.13"
+  }
+]

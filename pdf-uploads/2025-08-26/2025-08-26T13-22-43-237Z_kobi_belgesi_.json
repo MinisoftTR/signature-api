@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-26T13:22:43.237Z",
+  "clientIP": "192.168.1.229",
+  "originalFileName": "KOBİ BELGESİ.pdf",
+  "savedFileName": "2025-08-26T13-22-43-237Z_kobi_belgesi_.pdf",
+  "fileSize": 336841,
+  "fileSizeMB": 0.32123661041259766,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 3
+  }
+}

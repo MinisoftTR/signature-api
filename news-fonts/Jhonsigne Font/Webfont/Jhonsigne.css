@@ -1,0 +1,12 @@
+/* Webfont: Jhonsigne */@font-face {
+    font-family: 'Jhonsigne';
+    src: url('Jhonsigne.eot'); /* IE9 Compat Modes */
+    src: url('Jhonsigne.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Jhonsigne.woff') format('woff'), /* Modern Browsers */
+         url('Jhonsigne.woff2') format('woff2'), /* Modern Browsers */
+         url('Jhonsigne.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

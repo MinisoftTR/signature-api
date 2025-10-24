@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-15T20:51:12.665Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "Dekont.pdf",
+  "savedFileName": "2025-09-15T20-51-12-665Z_dekont.pdf",
+  "fileSize": 86743,
+  "fileSizeMB": 0.08272457122802734,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 1
+  }
+}

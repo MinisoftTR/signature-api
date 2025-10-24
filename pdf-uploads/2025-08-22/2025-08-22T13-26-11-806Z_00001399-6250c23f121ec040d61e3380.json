@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-22T13:26:11.806Z",
+  "clientIP": "192.168.1.229",
+  "originalFileName": "00001399-6250c23f121ec040d61e3380.pdf",
+  "savedFileName": "2025-08-22T13-26-11-806Z_00001399-6250c23f121ec040d61e3380.pdf",
+  "fileSize": 110325,
+  "fileSizeMB": 0.10521411895751953,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 4
+  }
+}

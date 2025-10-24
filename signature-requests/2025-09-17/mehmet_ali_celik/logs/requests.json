@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-09-17T21:05:37.852Z",
+    "type": "signature_generation",
+    "name_requested": "Mehmet Ali Çelik",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  }
+]

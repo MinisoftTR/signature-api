@@ -1,0 +1,15 @@
+{
+  "name": "We",
+  "totalRequests": 3,
+  "successfulRequests": 3,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "quixel",
+    "coral"
+  ],
+  "firstRequest": "2025-09-17T20:52:18.157Z",
+  "lastRequest": "2025-09-17T20:53:00.189Z",
+  "clientIPs": [
+    "192.168.1.23"
+  ]
+}

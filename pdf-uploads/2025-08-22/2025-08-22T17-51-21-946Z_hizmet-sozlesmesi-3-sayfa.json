@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-08-22T17:51:21.946Z",
+  "clientIP": "192.168.1.95",
+  "originalFileName": "Hizmet-Sozlesmesi-3-Sayfa.pdf",
+  "savedFileName": "2025-08-22T17-51-21-946Z_hizmet-sozlesmesi-3-sayfa.pdf",
+  "fileSize": 4512,
+  "fileSizeMB": 0.004302978515625,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 1
+  }
+}

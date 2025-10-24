@@ -1,0 +1,16 @@
+{
+  "name": "Few Few",
+  "totalRequests": 4,
+  "successfulRequests": 4,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "blaze",
+    "stone",
+    "pulse"
+  ],
+  "firstRequest": "2025-09-25T22:29:03.509Z",
+  "lastRequest": "2025-09-25T22:29:10.538Z",
+  "clientIPs": [
+    "127.0.0.1"
+  ]
+}

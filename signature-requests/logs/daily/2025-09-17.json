@@ -1,0 +1,3134 @@
+[
+  {
+    "timestamp": "2025-09-17T20:48:36.575Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:48:36.583Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:49:39.546Z",
+    "type": "signature_generation",
+    "name_requested": "Test Organizasyon",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T20:52:18.157Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:52:18.162Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:53:00.189Z",
+    "type": "signature_generation",
+    "name_requested": "We",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "192.168.1.23"
+  },
+  {
+    "timestamp": "2025-09-17T20:59:49.658Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T20:59:56.562Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:19.463Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:20.387Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:21.443Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:22.365Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:23.473Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:24.446Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:25.485Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:26.404Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:27.406Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:01:28.257Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:01.724Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:07.122Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:25.783Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:37.852Z",
+    "type": "signature_generation",
+    "name_requested": "Mehmet Ali Çelik",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:41.934Z",
+    "type": "signature_generation",
+    "name_requested": "Çağlar Şölen",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:05:47.525Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:21:41.287Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:21:41.500Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:21:48.231Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:21:55.110Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T21:21:57.623Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:18:56.967Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:18:58.072Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:18:58.884Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:18:59.693Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:00.454Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:01.269Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:02.053Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:02.865Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:03.662Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:04.449Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:05.229Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:06.037Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:06.815Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:07.581Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:08.352Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:09.138Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:09.910Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:10.698Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:11.465Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:12.266Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:13.108Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:13.906Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:19:30.084Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:46.862Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:48.048Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:48.854Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:49.608Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:50.376Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:51.125Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:51.916Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:52.711Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:53.487Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:54.265Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:55.022Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:55.791Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:56.567Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:57.339Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:58.103Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:58.896Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:20:59.683Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:21:00.471Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:21:01.301Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:21:02.092Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:21:02.910Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:21:03.680Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:47.750Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:48.126Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:48.535Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:49.130Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:49.550Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:49.963Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:50.396Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:50.783Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:51.200Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:51.593Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:52.025Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:52.412Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:52.818Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:53.231Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:53.620Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:54.046Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:54.543Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:54.960Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:55.392Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:55.816Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:56.240Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:56.625Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:57.037Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:57.455Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:57.866Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:58.265Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:58.652Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:59.050Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:59.529Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:22:59.936Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:00.364Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:00.772Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:01.172Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:01.591Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:02.009Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:02.418Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:02.852Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:03.228Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:03.638Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:04.062Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:04.455Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:05.007Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:05.418Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:23:05.830Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:28:11.915Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:28:52.340Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:35.977Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:36.227Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:36.473Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:36.795Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:37.091Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:37.331Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:37.580Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:37.785Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:38.030Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:38.235Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:38.517Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:38.724Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:38.969Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:39.220Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:39.444Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:39.701Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:40.047Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:40.285Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:40.540Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:40.764Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:41.062Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:41.282Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:41.517Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:41.743Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:41.970Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:42.197Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:42.406Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:42.636Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:42.952Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:43.158Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:43.407Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:43.630Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:43.846Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:44.070Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:44.284Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:44.512Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:44.768Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:44.974Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:45.220Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:45.464Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:45.665Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:45.942Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:46.157Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:29:46.395Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:36:26.696Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:36:35.906Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun Caylar",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:14.129Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:14.352Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:14.582Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:14.888Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:15.126Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:15.355Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:15.598Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:15.803Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:16.058Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:16.276Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:16.536Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:16.747Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:16.977Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:17.215Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:17.411Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:17.654Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:17.971Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:18.195Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:18.436Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:18.679Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:18.926Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:19.127Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:19.369Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:19.597Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:19.825Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:20.057Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:20.265Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:20.480Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:20.765Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:20.966Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:21.216Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:21.435Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:21.647Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:21.872Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:22.087Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:22.316Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:22.568Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:22.763Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:23.007Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:23.249Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:23.457Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:23.739Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:23.948Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:37:24.182Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:49:56.541Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:42.240Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:42.621Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:43.035Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:43.572Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:43.995Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:44.393Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:44.802Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:45.167Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:45.563Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:45.949Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:46.368Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:46.748Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:47.148Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:47.572Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:47.958Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:48.387Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:48.872Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:49.358Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:49.806Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:50.221Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:50.640Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:51.006Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:51.423Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:51.820Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:52.214Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:52.617Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:52.983Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:53.165Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:53.635Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:54.030Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:54.460Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:54.849Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:55.238Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:55.631Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:56.016Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:56.419Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:56.845Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:57.226Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:57.638Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:58.051Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:58.430Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:58.883Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:59.285Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T22:50:59.699Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:01:57.731Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:02:17.640Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:08.253Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:08.627Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:09.064Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:09.631Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:10.069Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:10.471Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:10.898Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:11.267Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:11.660Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:12.040Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:12.456Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:12.830Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:13.222Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:13.630Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:14.012Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:14.433Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:14.921Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:15.317Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:15.729Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:16.127Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:16.548Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:16.908Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:17.319Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:17.724Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:18.113Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:18.501Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:18.881Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:19.244Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:19.703Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:20.090Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:20.581Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:20.997Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:21.365Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:21.766Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:22.124Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:22.309Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:22.735Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:23.099Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:23.500Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:23.912Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:24.289Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:24.728Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:24.907Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:03:25.335Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:08:22.220Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:09:31.213Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:09:41.714Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:23.515Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "zephyr",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:23.910Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:24.322Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "nexus",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:24.877Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "vortex",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:25.303Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "prism",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:25.714Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flux",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:26.126Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crisp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:26.314Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ember",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:26.519Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "storm",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:26.922Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "lunar",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:27.340Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "spark",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:27.709Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:28.104Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "frost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:28.511Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "drift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:28.890Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blaze",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:29.311Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ocean",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:29.802Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ghost",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:30.200Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "chrome",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:30.610Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "twist",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:31.014Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cloud",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:31.464Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "ridge",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:31.642Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "wave",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:32.051Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "stone",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:32.447Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "magic",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:32.854Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pulse",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:33.237Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "swift",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:33.601Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "coral",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:33.964Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "tidal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:34.421Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "flame",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:34.887Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "bloom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:35.302Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "creek",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:35.702Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "amber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:36.095Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blade",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:36.492Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "cyber",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:36.909Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "pearl",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:37.291Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "crystal",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:37.713Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "glacial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:38.068Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "blossom",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:38.474Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "thunder",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:38.887Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "radiant",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:39.269Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "celestial",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:39.713Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "digital",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:40.080Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "inferno",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-09-17T23:10:40.481Z",
+    "type": "signature_generation",
+    "name_requested": "Orkun C.",
+    "font_style": "sharp",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  }
+]

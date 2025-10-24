@@ -1,0 +1,271 @@
+const path = require('path');
+
+// Signature style configurations
+const signatureStyles = [
+  {
+    id: 'customize',
+    name: 'Stilinizi özelleştirin',
+    imageUrl: '/api/miniAssets/styles/customize.png',
+    isPro: false,
+    isCustomize: true,
+    fontStyle: 'elegant'
+  },
+  {
+    id: 'artistic',
+    name: 'Artistic',
+    imageUrl: '/api/miniAssets/styles/artistic.png',
+    isPro: true,
+    fontStyle: 'artistic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Fallen City.ttf'),
+      family: 'FallenCity',
+      color: '#000000',
+      size: 420,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'calligraphic',
+    name: 'Calligraphic',
+    imageUrl: '/api/miniAssets/styles/calligraphic.png',
+    isPro: true,
+    fontStyle: 'calligraphic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Marlies.ttf'),
+      family: 'Marlies',
+      color: '#000000',
+      size: 390,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'elegant',
+    name: 'Elegant',
+    imageUrl: '/api/miniAssets/styles/elegant.png',
+    isPro: false,
+    fontStyle: 'elegant',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Fallen City.ttf'),
+      family: 'FallenCity',
+      color: '#000000',
+      size: 360,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'abstract',
+    name: 'Abstract',
+    imageUrl: '/api/miniAssets/styles/abstract.png',
+    isPro: false,
+    fontStyle: 'abstract',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Gillfloys alt.ttf'),
+      family: 'GillfloyAlt',
+      color: '#1a237e',
+      size: 360,
+      italic: true,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'bold',
+    name: 'Bold',
+    imageUrl: '/api/miniAssets/styles/bold.png',
+    isPro: false,
+    fontStyle: 'bold',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/GIllfloys.ttf'),
+      family: 'Gillfloys',
+      color: '#000000',
+      size: 390,
+      italic: false,
+      weight: 'bold',
+    }
+  },
+  {
+    id: 'classic',
+    name: 'Classic',
+    imageUrl: '/api/miniAssets/styles/classic.png',
+    isPro: false,
+    fontStyle: 'classic',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Marlies.ttf'),
+      family: 'Marlies',
+      color: '#000000',
+      size: 300,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'modern',
+    name: 'Modern',
+    imageUrl: '/api/miniAssets/styles/modern.png',
+    isPro: true,
+    fontStyle: 'modern',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/GIllfloys.ttf'),
+      family: 'Gillfloys',
+      color: '#1a237e',
+      size: 330,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'minimalist',
+    name: 'Minimalist',
+    imageUrl: '/api/miniAssets/styles/minimalist.png',
+    isPro: true,
+    fontStyle: 'minimalist',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Gillfloys alt.ttf'),
+      family: 'GillfloyAlt',
+      color: '#212121',
+      size: 270,
+      italic: false,
+      weight: 'normal',
+    }
+  },
+  {
+    id: 'professional',
+    name: 'Professional',
+    imageUrl: '/api/miniAssets/styles/professional.png',
+    isPro: true,
+    fontStyle: 'professional',
+    fontConfig: {
+      path: path.join(__dirname, '../fonts/Marlies.ttf'),
+      family: 'Marlies',
+      color: '#000000',
+      size: 330,
+      italic: false,
+      weight: 'normal',
+    }
+  }
+];
+
+// Get all signature styles
+const getAllStyles = () => {
+  return signatureStyles;
+};
+
+// Get style by ID
+const getStyleById = (id) => {
+  return signatureStyles.find(style => style.id === id);
+};
+
+// Get styles by category (free vs pro)
+const getStylesByCategory = (isPro = false) => {
+  return signatureStyles.filter(style => style.isPro === isPro && !style.isCustomize);
+};
+
+// Get font configuration for style - dinamik versiyon
+const getFontConfigForStyle = (styleId) => {
+  const fs = require('fs');
+  
+  // Önce statik yapılandırmayı kontrol et
+  const staticStyle = getStyleById(styleId);
+  if (staticStyle && staticStyle.fontConfig) {
+    return staticStyle.fontConfig;
+  }
+  
+  // Dinamik font yapılandırması oluştur
+  const fontsDir = path.join(__dirname, '../fonts');
+  if (!fs.existsSync(fontsDir)) {
+    return null;
+  }
+  
+  const fontFiles = fs.readdirSync(fontsDir);
+  
+  // StyleId'yi font dosyasına dönüştür
+  const searchName = styleId.replace(/_/g, ' ');
+  
+  for (const file of fontFiles) {
+    const ext = path.extname(file).toLowerCase();
+    if (ext === '.ttf' || ext === '.otf') {
+      const baseName = path.basename(file, ext);
+      const cleanName = baseName.replace(/_/g, ' ').trim();
+      
+      if (cleanName.toLowerCase() === searchName.toLowerCase()) {
+        const category = categorizeFont(cleanName);
+        return {
+          path: path.join(fontsDir, file),
+          family: cleanName.replace(/\s+/g, ''),
+          color: getDefaultColorForCategory(category),
+          size: getDefaultSizeForCategory(category),
+          italic: cleanName.toLowerCase().includes('italic'),
+          weight: cleanName.toLowerCase().includes('bold') ? 'bold' : 'normal',
+        };
+      }
+    }
+  }
+  
+  // Bulunamadığında varsayılan elegant kullan
+  return getStyleById('elegant')?.fontConfig || null;
+};
+
+// Helper functions
+function categorizeFont(fontName) {
+  const name = fontName.toLowerCase();
+  
+  if (name.includes('signature') || name.includes('script')) {
+    return 'signature';
+  } else if (name.includes('elegant') || name.includes('classy')) {
+    return 'elegant';
+  } else if (name.includes('bold') || name.includes('strong')) {
+    return 'bold';
+  } else if (name.includes('modern') || name.includes('contemporary')) {
+    return 'modern';
+  } else if (name.includes('classic') || name.includes('traditional')) {
+    return 'classic';
+  } else if (name.includes('artistic') || name.includes('creative')) {
+    return 'artistic';
+  } else if (name.includes('professional') || name.includes('business')) {
+    return 'professional';
+  } else if (name.includes('minimal') || name.includes('simple')) {
+    return 'minimalist';
+  } else {
+    return 'general';
+  }
+}
+
+function getDefaultColorForCategory(category) {
+  const colorMap = {
+    'signature': '#1a237e',
+    'elegant': '#000000', 
+    'bold': '#000000',
+    'modern': '#1a237e',
+    'classic': '#000000',
+    'artistic': '#4a148c',
+    'professional': '#000000',
+    'minimalist': '#212121',
+    'general': '#000000'
+  };
+  return colorMap[category] || '#000000';
+}
+
+function getDefaultSizeForCategory(category) {
+  const sizeMap = {
+    'signature': 390,
+    'elegant': 360,
+    'bold': 420,
+    'modern': 330,
+    'classic': 300,
+    'artistic': 420,
+    'professional': 330,
+    'minimalist': 270,
+    'general': 360
+  };
+  return sizeMap[category] || 360;
+}
+
+module.exports = {
+  signatureStyles,
+  getAllStyles,
+  getStyleById,
+  getStylesByCategory,
+  getFontConfigForStyle
+};

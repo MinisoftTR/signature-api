@@ -1,0 +1,15 @@
+{
+  "uploadTimestamp": "2025-09-11T03:42:30.813Z",
+  "clientIP": "192.168.1.6",
+  "originalFileName": "1753979357653_1753978327789_1753978312003_Terapi_Evreni_-_Test_Dokuman.pdf",
+  "savedFileName": "2025-09-11T03-42-30-813Z_1753979357653_1753978327789_1753978312003_terapi_evreni_-_test_dokuman.pdf",
+  "fileSize": 39632,
+  "fileSizeMB": 0.0377960205078125,
+  "metadata": {},
+  "fileInfo": {
+    "type": "PDF",
+    "encoding": "base64",
+    "uploadSource": "API",
+    "processingTime": 10
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-09-17T20:49:39.546Z",
+    "type": "signature_generation",
+    "name_requested": "Test Organizasyon",
+    "font_style": "quixel",
+    "success": true,
+    "error": null,
+    "client_ip": "127.0.0.1"
+  }
+]

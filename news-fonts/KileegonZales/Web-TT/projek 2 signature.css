@@ -1,0 +1,11 @@
+/* Webfont: KileegonZales */@font-face {
+    font-family: 'KileegonZales';
+    src: url('projek 2 signature.eot'); /* IE9 Compat Modes */
+    src: url('projek 2 signature.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('projek 2 signature.woff') format('woff'), /* Modern Browsers */
+         url('projek 2 signature.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

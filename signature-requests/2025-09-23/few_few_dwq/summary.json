@@ -1,0 +1,14 @@
+{
+  "name": "Few Few Dwq",
+  "totalRequests": 2,
+  "successfulRequests": 2,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "quixel"
+  ],
+  "firstRequest": "2025-09-23T23:23:39.545Z",
+  "lastRequest": "2025-09-23T23:23:39.565Z",
+  "clientIPs": [
+    "192.168.1.12"
+  ]
+}

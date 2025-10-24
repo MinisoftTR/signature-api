@@ -1,0 +1,14 @@
+{
+  "name": "Test Organizasyon",
+  "totalRequests": 1,
+  "successfulRequests": 1,
+  "failedRequests": 0,
+  "uniqueStyles": [
+    "quixel"
+  ],
+  "firstRequest": "2025-09-17T20:49:39.546Z",
+  "lastRequest": "2025-09-17T20:49:39.546Z",
+  "clientIPs": [
+    "127.0.0.1"
+  ]
+}
